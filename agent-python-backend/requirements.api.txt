@@ -1,29 +1,23 @@
-# FastAPI stack
 fastapi
 uvicorn
-httpx
-python-multipart
-
-# Data stack (versions are constrained via constraints.txt)
 pandas
-numpy<2
-matplotlib<3.9
-scipy
-
-
-
-# HTML parsing / SEO helpers
-beautifulsoup4
-lxml
-
-# Redis queue client (lightweight only)
-redis
-rq==2.0.0
-
-# Vertex + Google
-vertexai
 google-cloud-aiplatform
 google-cloud-secret-manager
-
-# OpenAI (if you still need it)
-openai==1.3.3
+openai
+httpx
+python-multipart
+pillow
+redis
+rq
+matplotlib
+uvloop
+httptools
+scipy
+beautifulsoup4==4.12.3
+lxml
+playwright
+lightweight_mmm==0.1.9
+jax==0.4.23
+jaxlib==0.4.23
+numpyro==0.13.2
+arviz==0.15.1
