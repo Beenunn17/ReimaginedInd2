@@ -1,0 +1,17 @@
+FROM python:3.11-slim
+
+# Worker container for Media Mix Modeling
+WORKDIR /app
+
+# Install only the heavy MMM dependencies
+COPY requirements.mmm.txt ./
+RUN pip install --no-cache-dir -r requirements.mmm.txt
+
+# Copy the entire backend so that agent code is available
+COPY . .
+
+# Set PYTHONPATH to ensure workers can import the agents package
+ENV PYTHONPATH=/app
+
+# Default command starts the RQ worker listening on the 'mmm' queue
+CMD ["python", "-m", "workers.mmm_worker"]

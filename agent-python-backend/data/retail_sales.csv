@@ -1,0 +1,1001 @@
+Date,SKU,ProductName,Category,Cost,Sales,Promotion,Weather,Holiday,Profit
+2022-01-02,SKU-101,Pro Carbon Stick,Sticks,150.0,328.62,None,Sunny,0,178.62
+2022-01-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.08,None,Snow,1,126.08
+2022-01-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,214.98,10% Off,Sunny,0,124.98
+2022-01-04,SKU-201,Vapor Flex Skates,Skates,300.0,489.18,None,Sunny,0,189.18
+2022-01-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,187.75,None,Rain,0,97.75
+2022-01-06,SKU-201,Vapor Flex Skates,Skates,300.0,680.69,10% Off,Snow,0,380.69
+2022-01-07,SKU-301,AeroLite Helmet,Helmets,80.0,179.81,None,Snow,1,99.81
+2022-01-07,SKU-301,AeroLite Helmet,Helmets,80.0,174.96,None,Rain,1,94.96
+2022-01-08,SKU-101,Pro Carbon Stick,Sticks,150.0,329.93,None,Snow,0,179.93
+2022-01-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,208.32,None,Rain,0,118.32
+2022-01-09,SKU-301,AeroLite Helmet,Helmets,80.0,150.16,None,Sunny,0,70.16
+2022-01-09,SKU-201,Vapor Flex Skates,Skates,300.0,465.66,None,Sunny,0,165.66
+2022-01-10,SKU-201,Vapor Flex Skates,Skates,300.0,545.45,None,Snow,0,245.45
+2022-01-11,SKU-201,Vapor Flex Skates,Skates,300.0,550.32,None,Rain,0,250.32
+2022-01-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.82,None,Rain,0,75.82
+2022-01-11,SKU-201,Vapor Flex Skates,Skates,300.0,626.37,10% Off,Snow,0,326.37
+2022-01-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,191.87,10% Off,Sunny,0,101.87
+2022-01-11,SKU-201,Vapor Flex Skates,Skates,300.0,483.7,None,Sunny,0,183.7
+2022-01-12,SKU-301,AeroLite Helmet,Helmets,80.0,178.1,None,Snow,0,98.1
+2022-01-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,203.76,10% Off,Sunny,0,113.76
+2022-01-13,SKU-201,Vapor Flex Skates,Skates,300.0,702.94,None,Sunny,0,402.94
+2022-01-13,SKU-201,Vapor Flex Skates,Skates,300.0,493.11,None,Sunny,0,193.11
+2022-01-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,198.89,None,Rain,0,108.89
+2022-01-15,SKU-201,Vapor Flex Skates,Skates,300.0,482.92,None,Snow,0,182.92
+2022-01-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,177.25,None,Sunny,0,87.25
+2022-01-16,SKU-301,AeroLite Helmet,Helmets,80.0,169.73,None,Sunny,1,89.73
+2022-01-17,SKU-101,Pro Carbon Stick,Sticks,150.0,338.63,None,Snow,0,188.63
+2022-01-17,SKU-301,AeroLite Helmet,Helmets,80.0,195.26,None,Snow,0,115.26
+2022-01-18,SKU-201,Vapor Flex Skates,Skates,300.0,716.52,10% Off,Sunny,0,416.52
+2022-01-18,SKU-201,Vapor Flex Skates,Skates,300.0,599.02,None,Sunny,0,299.02
+2022-01-19,SKU-101,Pro Carbon Stick,Sticks,150.0,264.76,None,Rain,0,114.76
+2022-01-20,SKU-301,AeroLite Helmet,Helmets,80.0,192.02,None,Rain,0,112.02
+2022-01-20,SKU-101,Pro Carbon Stick,Sticks,150.0,332.41,10% Off,Rain,0,182.41
+2022-01-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,195.55,None,Snow,0,105.55
+2022-01-21,SKU-101,Pro Carbon Stick,Sticks,150.0,373.21,None,Snow,0,223.21
+2022-01-21,SKU-101,Pro Carbon Stick,Sticks,150.0,295.72,None,Sunny,0,145.72
+2022-01-22,SKU-301,AeroLite Helmet,Helmets,80.0,178.72,None,Snow,0,98.72
+2022-01-22,SKU-301,AeroLite Helmet,Helmets,80.0,185.9,None,Snow,0,105.9
+2022-01-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,173.97,None,Rain,0,83.97
+2022-01-23,SKU-201,Vapor Flex Skates,Skates,300.0,690.28,10% Off,Sunny,0,390.28
+2022-01-23,SKU-101,Pro Carbon Stick,Sticks,150.0,345.31,10% Off,Snow,0,195.31
+2022-01-24,SKU-301,AeroLite Helmet,Helmets,80.0,193.75,None,Sunny,0,113.75
+2022-01-26,SKU-101,Pro Carbon Stick,Sticks,150.0,318.88,None,Sunny,0,168.88
+2022-01-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,210.56,None,Rain,0,120.56
+2022-01-27,SKU-101,Pro Carbon Stick,Sticks,150.0,269.48,None,Snow,0,119.48
+2022-01-28,SKU-201,Vapor Flex Skates,Skates,300.0,627.2,None,Rain,0,327.2
+2022-01-29,SKU-101,Pro Carbon Stick,Sticks,150.0,369.72,10% Off,Rain,0,219.72
+2022-01-30,SKU-301,AeroLite Helmet,Helmets,80.0,193.39,None,Rain,1,113.39
+2022-01-31,SKU-201,Vapor Flex Skates,Skates,300.0,723.02,10% Off,Sunny,0,423.02
+2022-02-01,SKU-201,Vapor Flex Skates,Skates,300.0,601.78,None,Snow,0,301.78
+2022-02-01,SKU-201,Vapor Flex Skates,Skates,300.0,706.47,10% Off,Sunny,0,406.47
+2022-02-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,178.47,None,Snow,0,88.47
+2022-02-05,SKU-201,Vapor Flex Skates,Skates,300.0,543.21,None,Rain,0,243.21
+2022-02-06,SKU-201,Vapor Flex Skates,Skates,300.0,517.78,None,Snow,0,217.78
+2022-02-06,SKU-301,AeroLite Helmet,Helmets,80.0,150.26,None,Rain,0,70.26
+2022-02-06,SKU-101,Pro Carbon Stick,Sticks,150.0,240.37,None,Sunny,0,90.37
+2022-02-07,SKU-301,AeroLite Helmet,Helmets,80.0,172.97,None,Sunny,0,92.97
+2022-02-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,135.76,None,Sunny,0,45.76
+2022-02-08,SKU-101,Pro Carbon Stick,Sticks,150.0,332.57,None,Rain,0,182.57
+2022-02-08,SKU-101,Pro Carbon Stick,Sticks,150.0,225.7,None,Rain,0,75.7
+2022-02-09,SKU-301,AeroLite Helmet,Helmets,80.0,183.07,None,Snow,0,103.07
+2022-02-12,SKU-201,Vapor Flex Skates,Skates,300.0,488.3,None,Snow,0,188.3
+2022-02-12,SKU-101,Pro Carbon Stick,Sticks,150.0,246.59,10% Off,Rain,0,96.59
+2022-02-13,SKU-301,AeroLite Helmet,Helmets,80.0,163.64,None,Snow,1,83.64
+2022-02-14,SKU-201,Vapor Flex Skates,Skates,300.0,587.49,10% Off,Rain,0,287.49
+2022-02-14,SKU-201,Vapor Flex Skates,Skates,300.0,699.34,10% Off,Snow,0,399.34
+2022-02-14,SKU-301,AeroLite Helmet,Helmets,80.0,127.68,None,Sunny,0,47.68
+2022-02-14,SKU-301,AeroLite Helmet,Helmets,80.0,156.74,10% Off,Rain,0,76.74
+2022-02-15,SKU-101,Pro Carbon Stick,Sticks,150.0,265.13,None,Sunny,0,115.13
+2022-02-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,139.19,None,Rain,0,49.19
+2022-02-15,SKU-101,Pro Carbon Stick,Sticks,150.0,361.51,10% Off,Rain,0,211.51
+2022-02-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,164.47,10% Off,Sunny,0,74.47
+2022-02-16,SKU-301,AeroLite Helmet,Helmets,80.0,123.74,None,Rain,0,43.74
+2022-02-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,178.67,None,Snow,0,88.67
+2022-02-18,SKU-301,AeroLite Helmet,Helmets,80.0,155.22,None,Rain,0,75.22
+2022-02-19,SKU-201,Vapor Flex Skates,Skates,300.0,464.69,None,Rain,0,164.69
+2022-02-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.03,None,Rain,0,75.03
+2022-02-21,SKU-101,Pro Carbon Stick,Sticks,150.0,342.85,None,Snow,0,192.85
+2022-02-21,SKU-201,Vapor Flex Skates,Skates,300.0,484.93,None,Sunny,0,184.93
+2022-02-21,SKU-301,AeroLite Helmet,Helmets,80.0,142.57,10% Off,Snow,1,62.57
+2022-02-22,SKU-201,Vapor Flex Skates,Skates,300.0,636.8,None,Sunny,0,336.8
+2022-02-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,146.84,None,Sunny,0,56.84
+2022-02-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,188.34,None,Snow,0,98.34
+2022-02-24,SKU-301,AeroLite Helmet,Helmets,80.0,141.31,None,Sunny,0,61.31
+2022-02-24,SKU-301,AeroLite Helmet,Helmets,80.0,137.06,None,Rain,0,57.06
+2022-02-24,SKU-301,AeroLite Helmet,Helmets,80.0,121.24,None,Sunny,0,41.24
+2022-02-25,SKU-101,Pro Carbon Stick,Sticks,150.0,373.35,None,Snow,0,223.35
+2022-02-26,SKU-301,AeroLite Helmet,Helmets,80.0,173.97,None,Sunny,0,93.97
+2022-02-26,SKU-201,Vapor Flex Skates,Skates,300.0,583.57,None,Snow,0,283.57
+2022-02-26,SKU-101,Pro Carbon Stick,Sticks,150.0,340.56,10% Off,Sunny,0,190.56
+2022-02-26,SKU-101,Pro Carbon Stick,Sticks,150.0,320.29,None,Sunny,0,170.29
+2022-02-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,174.53,10% Off,Sunny,1,84.53
+2022-02-28,SKU-201,Vapor Flex Skates,Skates,300.0,491.49,None,Rain,0,191.49
+2022-02-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,145.68,None,Sunny,0,55.68
+2022-03-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.09,None,Sunny,0,126.09
+2022-03-01,SKU-101,Pro Carbon Stick,Sticks,150.0,365.81,10% Off,Rain,0,215.81
+2022-03-01,SKU-101,Pro Carbon Stick,Sticks,150.0,309.81,None,Sunny,0,159.81
+2022-03-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,140.47,None,Rain,0,50.47
+2022-03-04,SKU-201,Vapor Flex Skates,Skates,300.0,682.75,10% Off,Sunny,0,382.75
+2022-03-04,SKU-301,AeroLite Helmet,Helmets,80.0,194.81,10% Off,Sunny,0,114.81
+2022-03-09,SKU-201,Vapor Flex Skates,Skates,300.0,506.93,None,Sunny,0,206.93
+2022-03-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,172.24,None,Snow,0,82.24
+2022-03-10,SKU-201,Vapor Flex Skates,Skates,300.0,682.07,10% Off,Sunny,1,382.07
+2022-03-11,SKU-301,AeroLite Helmet,Helmets,80.0,125.41,10% Off,Snow,0,45.41
+2022-03-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.8,None,Snow,0,134.8
+2022-03-14,SKU-201,Vapor Flex Skates,Skates,300.0,550.71,10% Off,Snow,0,250.71
+2022-03-15,SKU-301,AeroLite Helmet,Helmets,80.0,152.2,None,Sunny,0,72.2
+2022-03-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,196.55,None,Sunny,0,106.55
+2022-03-17,SKU-301,AeroLite Helmet,Helmets,80.0,131.33,None,Rain,0,51.33
+2022-03-19,SKU-301,AeroLite Helmet,Helmets,80.0,146.18,None,Snow,0,66.18
+2022-03-19,SKU-201,Vapor Flex Skates,Skates,300.0,584.58,10% Off,Snow,0,284.58
+2022-03-19,SKU-301,AeroLite Helmet,Helmets,80.0,123.29,None,Rain,0,43.29
+2022-03-20,SKU-301,AeroLite Helmet,Helmets,80.0,145.06,None,Snow,0,65.06
+2022-03-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,191.8,None,Snow,0,101.8
+2022-03-21,SKU-101,Pro Carbon Stick,Sticks,150.0,370.46,10% Off,Sunny,1,220.46
+2022-03-22,SKU-301,AeroLite Helmet,Helmets,80.0,199.96,10% Off,Snow,0,119.96
+2022-03-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,208.73,None,Sunny,0,118.73
+2022-03-23,SKU-201,Vapor Flex Skates,Skates,300.0,653.86,None,Rain,0,353.86
+2022-03-23,SKU-301,AeroLite Helmet,Helmets,80.0,170.81,None,Sunny,0,90.81
+2022-03-23,SKU-201,Vapor Flex Skates,Skates,300.0,505.1,None,Rain,0,205.1
+2022-03-24,SKU-101,Pro Carbon Stick,Sticks,150.0,274.99,None,Sunny,0,124.99
+2022-03-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,152.76,None,Sunny,0,62.76
+2022-03-28,SKU-201,Vapor Flex Skates,Skates,300.0,719.42,10% Off,Rain,0,419.42
+2022-03-28,SKU-101,Pro Carbon Stick,Sticks,150.0,335.24,None,Rain,0,185.24
+2022-03-28,SKU-301,AeroLite Helmet,Helmets,80.0,135.81,None,Snow,0,55.81
+2022-03-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,210.91,10% Off,Sunny,0,120.91
+2022-03-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,138.65,None,Snow,0,48.65
+2022-03-30,SKU-201,Vapor Flex Skates,Skates,300.0,649.19,None,Sunny,0,349.19
+2022-03-30,SKU-101,Pro Carbon Stick,Sticks,150.0,227.09,None,Rain,0,77.09
+2022-03-31,SKU-201,Vapor Flex Skates,Skates,300.0,470.38,10% Off,Sunny,0,170.38
+2022-03-31,SKU-201,Vapor Flex Skates,Skates,300.0,629.38,10% Off,Snow,0,329.38
+2022-04-02,SKU-301,AeroLite Helmet,Helmets,80.0,136.57,None,Sunny,0,56.57
+2022-04-03,SKU-301,AeroLite Helmet,Helmets,80.0,158.64,None,Snow,0,78.64
+2022-04-04,SKU-301,AeroLite Helmet,Helmets,80.0,160.88,None,Snow,0,80.88
+2022-04-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,212.37,None,Rain,0,122.37
+2022-04-04,SKU-301,AeroLite Helmet,Helmets,80.0,155.35,None,Rain,1,75.35
+2022-04-04,SKU-201,Vapor Flex Skates,Skates,300.0,743.74,None,Sunny,0,443.74
+2022-04-05,SKU-301,AeroLite Helmet,Helmets,80.0,143.54,None,Sunny,1,63.54
+2022-04-06,SKU-301,AeroLite Helmet,Helmets,80.0,133.12,None,Rain,0,53.12
+2022-04-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,146.64,None,Snow,0,56.64
+2022-04-07,SKU-101,Pro Carbon Stick,Sticks,150.0,243.91,None,Rain,0,93.91
+2022-04-08,SKU-301,AeroLite Helmet,Helmets,80.0,189.6,None,Sunny,0,109.6
+2022-04-08,SKU-301,AeroLite Helmet,Helmets,80.0,141.44,None,Sunny,0,61.44
+2022-04-09,SKU-301,AeroLite Helmet,Helmets,80.0,172.28,10% Off,Snow,0,92.28
+2022-04-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,168.29,None,Sunny,0,78.29
+2022-04-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,163.43,None,Snow,1,73.43
+2022-04-12,SKU-301,AeroLite Helmet,Helmets,80.0,181.09,None,Rain,0,101.09
+2022-04-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,143.35,None,Sunny,0,53.35
+2022-04-13,SKU-101,Pro Carbon Stick,Sticks,150.0,243.38,None,Sunny,0,93.38
+2022-04-14,SKU-201,Vapor Flex Skates,Skates,300.0,678.77,None,Sunny,0,378.77
+2022-04-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,183.3,None,Snow,0,93.3
+2022-04-16,SKU-301,AeroLite Helmet,Helmets,80.0,145.45,10% Off,Rain,0,65.45
+2022-04-17,SKU-101,Pro Carbon Stick,Sticks,150.0,369.41,None,Rain,0,219.41
+2022-04-17,SKU-401,Stealth Pro Gloves,Gloves,90.0,219.26,None,Snow,0,129.26
+2022-04-18,SKU-201,Vapor Flex Skates,Skates,300.0,684.22,None,Rain,0,384.22
+2022-04-20,SKU-201,Vapor Flex Skates,Skates,300.0,579.37,None,Snow,0,279.37
+2022-04-21,SKU-101,Pro Carbon Stick,Sticks,150.0,371.1,None,Sunny,0,221.1
+2022-04-22,SKU-101,Pro Carbon Stick,Sticks,150.0,333.73,None,Rain,0,183.73
+2022-04-22,SKU-401,Stealth Pro Gloves,Gloves,90.0,186.17,10% Off,Snow,0,96.17
+2022-04-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,215.16,10% Off,Rain,0,125.16
+2022-04-23,SKU-301,AeroLite Helmet,Helmets,80.0,167.95,None,Sunny,0,87.95
+2022-04-24,SKU-101,Pro Carbon Stick,Sticks,150.0,286.91,None,Sunny,0,136.91
+2022-04-26,SKU-101,Pro Carbon Stick,Sticks,150.0,316.84,None,Snow,0,166.84
+2022-04-26,SKU-201,Vapor Flex Skates,Skates,300.0,454.81,None,Sunny,0,154.81
+2022-04-27,SKU-201,Vapor Flex Skates,Skates,300.0,694.32,10% Off,Sunny,0,394.32
+2022-04-27,SKU-201,Vapor Flex Skates,Skates,300.0,749.71,None,Rain,0,449.71
+2022-04-28,SKU-101,Pro Carbon Stick,Sticks,150.0,290.82,None,Sunny,0,140.82
+2022-04-30,SKU-101,Pro Carbon Stick,Sticks,150.0,316.22,None,Rain,0,166.22
+2022-05-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,214.1,None,Rain,0,124.1
+2022-05-04,SKU-101,Pro Carbon Stick,Sticks,150.0,366.83,None,Sunny,0,216.83
+2022-05-04,SKU-201,Vapor Flex Skates,Skates,300.0,489.73,None,Snow,0,189.73
+2022-05-05,SKU-101,Pro Carbon Stick,Sticks,150.0,257.92,None,Sunny,0,107.92
+2022-05-06,SKU-101,Pro Carbon Stick,Sticks,150.0,344.49,None,Snow,0,194.49
+2022-05-07,SKU-101,Pro Carbon Stick,Sticks,150.0,235.11,None,Snow,0,85.11
+2022-05-08,SKU-301,AeroLite Helmet,Helmets,80.0,128.03,10% Off,Rain,0,48.03
+2022-05-09,SKU-301,AeroLite Helmet,Helmets,80.0,144.94,None,Rain,0,64.94
+2022-05-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,210.41,None,Rain,0,120.41
+2022-05-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,159.27,None,Snow,0,69.27
+2022-05-10,SKU-301,AeroLite Helmet,Helmets,80.0,151.49,None,Snow,0,71.49
+2022-05-11,SKU-301,AeroLite Helmet,Helmets,80.0,143.44,None,Sunny,0,63.44
+2022-05-11,SKU-201,Vapor Flex Skates,Skates,300.0,692.87,10% Off,Rain,0,392.87
+2022-05-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.68,None,Rain,0,126.68
+2022-05-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,212.72,None,Sunny,0,122.72
+2022-05-13,SKU-201,Vapor Flex Skates,Skates,300.0,728.6,10% Off,Rain,0,428.6
+2022-05-14,SKU-301,AeroLite Helmet,Helmets,80.0,141.59,None,Rain,0,61.59
+2022-05-16,SKU-101,Pro Carbon Stick,Sticks,150.0,354.45,None,Sunny,0,204.45
+2022-05-17,SKU-201,Vapor Flex Skates,Skates,300.0,649.13,None,Snow,0,349.13
+2022-05-18,SKU-201,Vapor Flex Skates,Skates,300.0,522.94,None,Rain,0,222.94
+2022-05-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,137.02,None,Snow,1,47.02
+2022-05-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,211.59,None,Sunny,0,121.59
+2022-05-24,SKU-201,Vapor Flex Skates,Skates,300.0,476.43,None,Rain,0,176.43
+2022-05-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,161.23,None,Snow,0,71.23
+2022-05-24,SKU-101,Pro Carbon Stick,Sticks,150.0,356.1,None,Snow,0,206.1
+2022-05-25,SKU-301,AeroLite Helmet,Helmets,80.0,136.78,None,Snow,0,56.78
+2022-05-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,202.64,None,Sunny,0,112.64
+2022-05-26,SKU-301,AeroLite Helmet,Helmets,80.0,120.06,None,Sunny,0,40.06
+2022-05-26,SKU-101,Pro Carbon Stick,Sticks,150.0,343.61,None,Sunny,0,193.61
+2022-05-26,SKU-201,Vapor Flex Skates,Skates,300.0,740.07,10% Off,Snow,0,440.07
+2022-05-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,207.96,None,Sunny,0,117.96
+2022-05-27,SKU-201,Vapor Flex Skates,Skates,300.0,567.46,None,Sunny,0,267.46
+2022-05-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,201.62,None,Snow,0,111.62
+2022-05-27,SKU-101,Pro Carbon Stick,Sticks,150.0,339.61,None,Sunny,0,189.61
+2022-05-28,SKU-201,Vapor Flex Skates,Skates,300.0,735.61,10% Off,Snow,0,435.61
+2022-05-28,SKU-301,AeroLite Helmet,Helmets,80.0,185.14,None,Snow,0,105.14
+2022-05-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,154.33,None,Sunny,0,64.33
+2022-05-29,SKU-101,Pro Carbon Stick,Sticks,150.0,362.59,None,Snow,0,212.59
+2022-05-29,SKU-301,AeroLite Helmet,Helmets,80.0,147.74,10% Off,Sunny,0,67.74
+2022-05-29,SKU-301,AeroLite Helmet,Helmets,80.0,120.85,None,Snow,0,40.85
+2022-05-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.21,10% Off,Rain,0,126.21
+2022-05-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,198.65,10% Off,Snow,0,108.65
+2022-05-30,SKU-201,Vapor Flex Skates,Skates,300.0,706.57,None,Snow,0,406.57
+2022-05-31,SKU-301,AeroLite Helmet,Helmets,80.0,179.32,None,Rain,0,99.32
+2022-05-31,SKU-301,AeroLite Helmet,Helmets,80.0,125.55,None,Sunny,0,45.55
+2022-05-31,SKU-201,Vapor Flex Skates,Skates,300.0,743.35,10% Off,Rain,0,443.35
+2022-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,303.7,None,Sunny,0,153.7
+2022-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,357.29,None,Rain,0,207.29
+2022-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,351.83,None,Sunny,0,201.83
+2022-06-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,174.05,10% Off,Sunny,0,84.05
+2022-06-03,SKU-201,Vapor Flex Skates,Skates,300.0,622.89,None,Rain,0,322.89
+2022-06-04,SKU-201,Vapor Flex Skates,Skates,300.0,538.21,None,Snow,0,238.21
+2022-06-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,167.92,None,Snow,0,77.92
+2022-06-05,SKU-201,Vapor Flex Skates,Skates,300.0,710.75,None,Snow,0,410.75
+2022-06-05,SKU-101,Pro Carbon Stick,Sticks,150.0,296.12,None,Sunny,0,146.12
+2022-06-05,SKU-201,Vapor Flex Skates,Skates,300.0,705.35,None,Snow,0,405.35
+2022-06-05,SKU-301,AeroLite Helmet,Helmets,80.0,189.62,None,Rain,0,109.62
+2022-06-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,205.28,None,Rain,0,115.28
+2022-06-06,SKU-101,Pro Carbon Stick,Sticks,150.0,225.75,None,Sunny,0,75.75
+2022-06-07,SKU-201,Vapor Flex Skates,Skates,300.0,696.04,None,Rain,0,396.04
+2022-06-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,213.89,None,Sunny,0,123.89
+2022-06-07,SKU-101,Pro Carbon Stick,Sticks,150.0,283.98,None,Sunny,0,133.98
+2022-06-08,SKU-201,Vapor Flex Skates,Skates,300.0,682.51,10% Off,Snow,0,382.51
+2022-06-08,SKU-101,Pro Carbon Stick,Sticks,150.0,257.71,None,Sunny,0,107.71
+2022-06-08,SKU-101,Pro Carbon Stick,Sticks,150.0,338.92,10% Off,Rain,0,188.92
+2022-06-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,167.4,None,Snow,0,77.4
+2022-06-10,SKU-301,AeroLite Helmet,Helmets,80.0,152.77,None,Sunny,0,72.77
+2022-06-11,SKU-101,Pro Carbon Stick,Sticks,150.0,266.37,None,Sunny,0,116.37
+2022-06-11,SKU-301,AeroLite Helmet,Helmets,80.0,172.58,10% Off,Sunny,0,92.58
+2022-06-12,SKU-101,Pro Carbon Stick,Sticks,150.0,335.96,None,Rain,0,185.96
+2022-06-14,SKU-101,Pro Carbon Stick,Sticks,150.0,248.18,10% Off,Snow,0,98.18
+2022-06-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,210.55,10% Off,Rain,0,120.55
+2022-06-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,220.7,None,Rain,0,130.7
+2022-06-17,SKU-301,AeroLite Helmet,Helmets,80.0,172.67,None,Rain,0,92.67
+2022-06-18,SKU-301,AeroLite Helmet,Helmets,80.0,134.39,None,Snow,0,54.39
+2022-06-18,SKU-101,Pro Carbon Stick,Sticks,150.0,322.8,None,Snow,0,172.8
+2022-06-18,SKU-101,Pro Carbon Stick,Sticks,150.0,323.14,None,Sunny,0,173.14
+2022-06-18,SKU-101,Pro Carbon Stick,Sticks,150.0,357.65,None,Sunny,0,207.65
+2022-06-18,SKU-301,AeroLite Helmet,Helmets,80.0,199.23,None,Snow,0,119.23
+2022-06-19,SKU-101,Pro Carbon Stick,Sticks,150.0,259.08,10% Off,Snow,0,109.08
+2022-06-19,SKU-101,Pro Carbon Stick,Sticks,150.0,234.8,None,Rain,0,84.8
+2022-06-20,SKU-201,Vapor Flex Skates,Skates,300.0,673.15,None,Snow,1,373.15
+2022-06-20,SKU-101,Pro Carbon Stick,Sticks,150.0,269.79,10% Off,Snow,0,119.79
+2022-06-20,SKU-301,AeroLite Helmet,Helmets,80.0,180.83,10% Off,Rain,0,100.83
+2022-06-21,SKU-201,Vapor Flex Skates,Skates,300.0,611.19,10% Off,Sunny,0,311.19
+2022-06-22,SKU-101,Pro Carbon Stick,Sticks,150.0,308.79,None,Rain,1,158.79
+2022-06-22,SKU-201,Vapor Flex Skates,Skates,300.0,487.05,None,Snow,0,187.05
+2022-06-23,SKU-101,Pro Carbon Stick,Sticks,150.0,274.21,None,Sunny,1,124.21
+2022-06-23,SKU-301,AeroLite Helmet,Helmets,80.0,129.13,None,Sunny,0,49.13
+2022-06-23,SKU-101,Pro Carbon Stick,Sticks,150.0,353.0,None,Rain,0,203.0
+2022-06-23,SKU-301,AeroLite Helmet,Helmets,80.0,194.14,None,Snow,0,114.14
+2022-06-24,SKU-201,Vapor Flex Skates,Skates,300.0,529.41,None,Rain,0,229.41
+2022-06-25,SKU-301,AeroLite Helmet,Helmets,80.0,165.27,None,Rain,0,85.27
+2022-06-25,SKU-201,Vapor Flex Skates,Skates,300.0,568.27,None,Rain,1,268.27
+2022-06-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,192.52,None,Sunny,0,102.52
+2022-06-26,SKU-101,Pro Carbon Stick,Sticks,150.0,246.17,None,Snow,1,96.17
+2022-06-27,SKU-101,Pro Carbon Stick,Sticks,150.0,261.34,None,Rain,1,111.34
+2022-06-29,SKU-101,Pro Carbon Stick,Sticks,150.0,280.22,None,Rain,0,130.22
+2022-06-29,SKU-101,Pro Carbon Stick,Sticks,150.0,313.13,None,Sunny,1,163.13
+2022-06-30,SKU-101,Pro Carbon Stick,Sticks,150.0,307.72,10% Off,Snow,0,157.72
+2022-06-30,SKU-201,Vapor Flex Skates,Skates,300.0,498.93,None,Sunny,0,198.93
+2022-07-01,SKU-101,Pro Carbon Stick,Sticks,150.0,280.43,None,Rain,0,130.43
+2022-07-02,SKU-101,Pro Carbon Stick,Sticks,150.0,260.08,None,Rain,0,110.08
+2022-07-02,SKU-201,Vapor Flex Skates,Skates,300.0,643.7,10% Off,Snow,0,343.7
+2022-07-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,179.48,10% Off,Rain,0,89.48
+2022-07-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,172.85,10% Off,Snow,0,82.85
+2022-07-08,SKU-301,AeroLite Helmet,Helmets,80.0,196.4,10% Off,Snow,0,116.4
+2022-07-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,182.0,None,Snow,0,92.0
+2022-07-10,SKU-301,AeroLite Helmet,Helmets,80.0,130.53,None,Sunny,0,50.53
+2022-07-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,159.14,None,Snow,1,69.14
+2022-07-11,SKU-201,Vapor Flex Skates,Skates,300.0,687.62,10% Off,Sunny,0,387.62
+2022-07-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,221.89,None,Sunny,0,131.89
+2022-07-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,204.34,10% Off,Sunny,1,114.34
+2022-07-14,SKU-101,Pro Carbon Stick,Sticks,150.0,345.36,None,Sunny,0,195.36
+2022-07-14,SKU-201,Vapor Flex Skates,Skates,300.0,628.74,None,Snow,0,328.74
+2022-07-15,SKU-301,AeroLite Helmet,Helmets,80.0,176.58,None,Sunny,0,96.58
+2022-07-15,SKU-201,Vapor Flex Skates,Skates,300.0,537.95,None,Snow,0,237.95
+2022-07-15,SKU-301,AeroLite Helmet,Helmets,80.0,124.16,None,Rain,0,44.16
+2022-07-16,SKU-301,AeroLite Helmet,Helmets,80.0,141.7,None,Rain,1,61.7
+2022-07-16,SKU-201,Vapor Flex Skates,Skates,300.0,606.69,None,Rain,0,306.69
+2022-07-18,SKU-201,Vapor Flex Skates,Skates,300.0,560.04,None,Sunny,0,260.04
+2022-07-21,SKU-201,Vapor Flex Skates,Skates,300.0,568.68,None,Snow,0,268.68
+2022-07-22,SKU-101,Pro Carbon Stick,Sticks,150.0,322.13,None,Rain,0,172.13
+2022-07-23,SKU-101,Pro Carbon Stick,Sticks,150.0,372.09,None,Rain,0,222.09
+2022-07-24,SKU-301,AeroLite Helmet,Helmets,80.0,140.72,None,Rain,0,60.72
+2022-07-25,SKU-101,Pro Carbon Stick,Sticks,150.0,336.04,None,Snow,0,186.04
+2022-07-25,SKU-101,Pro Carbon Stick,Sticks,150.0,256.45,10% Off,Sunny,0,106.45
+2022-07-27,SKU-101,Pro Carbon Stick,Sticks,150.0,309.42,None,Rain,0,159.42
+2022-07-29,SKU-101,Pro Carbon Stick,Sticks,150.0,252.69,10% Off,Sunny,0,102.69
+2022-07-31,SKU-101,Pro Carbon Stick,Sticks,150.0,336.07,None,Rain,0,186.07
+2022-07-31,SKU-401,Stealth Pro Gloves,Gloves,90.0,223.36,None,Sunny,0,133.36
+2022-07-31,SKU-101,Pro Carbon Stick,Sticks,150.0,374.45,None,Snow,1,224.45
+2022-08-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,154.18,None,Rain,0,64.18
+2022-08-02,SKU-201,Vapor Flex Skates,Skates,300.0,556.67,None,Sunny,0,256.67
+2022-08-03,SKU-301,AeroLite Helmet,Helmets,80.0,137.23,None,Rain,0,57.23
+2022-08-03,SKU-201,Vapor Flex Skates,Skates,300.0,643.77,10% Off,Sunny,0,343.77
+2022-08-05,SKU-101,Pro Carbon Stick,Sticks,150.0,369.08,None,Rain,0,219.08
+2022-08-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,144.94,10% Off,Snow,0,54.94
+2022-08-07,SKU-301,AeroLite Helmet,Helmets,80.0,150.48,10% Off,Snow,0,70.48
+2022-08-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,181.37,None,Snow,0,91.37
+2022-08-08,SKU-301,AeroLite Helmet,Helmets,80.0,166.29,None,Sunny,0,86.29
+2022-08-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,139.25,10% Off,Sunny,0,49.25
+2022-08-10,SKU-201,Vapor Flex Skates,Skates,300.0,613.06,None,Snow,0,313.06
+2022-08-11,SKU-101,Pro Carbon Stick,Sticks,150.0,316.92,None,Snow,0,166.92
+2022-08-14,SKU-301,AeroLite Helmet,Helmets,80.0,193.02,None,Rain,0,113.02
+2022-08-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,171.74,10% Off,Rain,0,81.74
+2022-08-15,SKU-101,Pro Carbon Stick,Sticks,150.0,330.41,10% Off,Sunny,0,180.41
+2022-08-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,136.37,None,Sunny,0,46.37
+2022-08-16,SKU-301,AeroLite Helmet,Helmets,80.0,138.04,None,Snow,0,58.04
+2022-08-17,SKU-301,AeroLite Helmet,Helmets,80.0,156.93,None,Sunny,0,76.93
+2022-08-18,SKU-201,Vapor Flex Skates,Skates,300.0,483.75,10% Off,Sunny,0,183.75
+2022-08-20,SKU-201,Vapor Flex Skates,Skates,300.0,727.63,None,Sunny,0,427.63
+2022-08-21,SKU-201,Vapor Flex Skates,Skates,300.0,571.13,None,Rain,0,271.13
+2022-08-21,SKU-201,Vapor Flex Skates,Skates,300.0,729.89,10% Off,Rain,0,429.89
+2022-08-21,SKU-301,AeroLite Helmet,Helmets,80.0,153.47,10% Off,Rain,0,73.47
+2022-08-22,SKU-401,Stealth Pro Gloves,Gloves,90.0,215.51,None,Sunny,0,125.51
+2022-08-22,SKU-101,Pro Carbon Stick,Sticks,150.0,314.95,None,Snow,0,164.95
+2022-08-22,SKU-101,Pro Carbon Stick,Sticks,150.0,281.29,None,Rain,0,131.29
+2022-08-25,SKU-101,Pro Carbon Stick,Sticks,150.0,347.86,None,Sunny,0,197.86
+2022-08-28,SKU-201,Vapor Flex Skates,Skates,300.0,565.65,None,Rain,0,265.65
+2022-08-29,SKU-101,Pro Carbon Stick,Sticks,150.0,307.05,None,Snow,0,157.05
+2022-08-29,SKU-401,Stealth Pro Gloves,Gloves,90.0,158.6,None,Sunny,0,68.6
+2022-08-30,SKU-201,Vapor Flex Skates,Skates,300.0,619.51,None,Rain,0,319.51
+2022-08-30,SKU-101,Pro Carbon Stick,Sticks,150.0,285.81,None,Sunny,0,135.81
+2022-08-30,SKU-301,AeroLite Helmet,Helmets,80.0,169.96,10% Off,Sunny,0,89.96
+2022-08-31,SKU-101,Pro Carbon Stick,Sticks,150.0,225.63,None,Snow,0,75.63
+2022-08-31,SKU-201,Vapor Flex Skates,Skates,300.0,571.85,None,Snow,0,271.85
+2022-08-31,SKU-201,Vapor Flex Skates,Skates,300.0,479.45,10% Off,Snow,0,179.45
+2022-08-31,SKU-301,AeroLite Helmet,Helmets,80.0,138.19,None,Rain,0,58.19
+2022-09-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,141.14,10% Off,Rain,0,51.14
+2022-09-01,SKU-101,Pro Carbon Stick,Sticks,150.0,238.46,None,Rain,0,88.46
+2022-09-02,SKU-301,AeroLite Helmet,Helmets,80.0,193.61,None,Rain,1,113.61
+2022-09-03,SKU-101,Pro Carbon Stick,Sticks,150.0,297.76,None,Sunny,0,147.76
+2022-09-03,SKU-101,Pro Carbon Stick,Sticks,150.0,226.04,None,Snow,0,76.04
+2022-09-04,SKU-101,Pro Carbon Stick,Sticks,150.0,258.24,None,Rain,0,108.24
+2022-09-04,SKU-301,AeroLite Helmet,Helmets,80.0,193.09,10% Off,Rain,0,113.09
+2022-09-04,SKU-101,Pro Carbon Stick,Sticks,150.0,350.33,None,Sunny,0,200.33
+2022-09-04,SKU-301,AeroLite Helmet,Helmets,80.0,138.69,10% Off,Rain,0,58.69
+2022-09-05,SKU-301,AeroLite Helmet,Helmets,80.0,166.36,None,Rain,0,86.36
+2022-09-06,SKU-301,AeroLite Helmet,Helmets,80.0,146.27,None,Sunny,0,66.27
+2022-09-07,SKU-301,AeroLite Helmet,Helmets,80.0,124.2,None,Rain,0,44.2
+2022-09-08,SKU-201,Vapor Flex Skates,Skates,300.0,709.12,10% Off,Rain,0,409.12
+2022-09-08,SKU-201,Vapor Flex Skates,Skates,300.0,638.54,None,Sunny,0,338.54
+2022-09-08,SKU-301,AeroLite Helmet,Helmets,80.0,179.83,None,Rain,0,99.83
+2022-09-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,141.9,None,Rain,0,51.9
+2022-09-09,SKU-201,Vapor Flex Skates,Skates,300.0,604.94,10% Off,Sunny,0,304.94
+2022-09-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,175.03,None,Snow,0,85.03
+2022-09-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,150.54,None,Rain,0,60.54
+2022-09-13,SKU-301,AeroLite Helmet,Helmets,80.0,160.25,None,Snow,0,80.25
+2022-09-13,SKU-101,Pro Carbon Stick,Sticks,150.0,280.11,None,Rain,0,130.11
+2022-09-14,SKU-301,AeroLite Helmet,Helmets,80.0,194.61,10% Off,Snow,0,114.61
+2022-09-14,SKU-201,Vapor Flex Skates,Skates,300.0,531.2,None,Rain,0,231.2
+2022-09-15,SKU-301,AeroLite Helmet,Helmets,80.0,174.9,None,Snow,0,94.9
+2022-09-16,SKU-101,Pro Carbon Stick,Sticks,150.0,351.36,None,Sunny,0,201.36
+2022-09-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.55,None,Rain,0,75.55
+2022-09-17,SKU-301,AeroLite Helmet,Helmets,80.0,138.27,None,Rain,0,58.27
+2022-09-18,SKU-101,Pro Carbon Stick,Sticks,150.0,296.58,None,Rain,0,146.58
+2022-09-18,SKU-301,AeroLite Helmet,Helmets,80.0,159.7,None,Sunny,0,79.7
+2022-09-18,SKU-201,Vapor Flex Skates,Skates,300.0,723.46,None,Snow,0,423.46
+2022-09-19,SKU-201,Vapor Flex Skates,Skates,300.0,594.97,None,Snow,0,294.97
+2022-09-19,SKU-101,Pro Carbon Stick,Sticks,150.0,240.5,None,Rain,0,90.5
+2022-09-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,183.55,10% Off,Rain,0,93.55
+2022-09-21,SKU-201,Vapor Flex Skates,Skates,300.0,664.23,None,Snow,0,364.23
+2022-09-22,SKU-401,Stealth Pro Gloves,Gloves,90.0,185.46,None,Rain,0,95.46
+2022-09-22,SKU-101,Pro Carbon Stick,Sticks,150.0,284.1,None,Sunny,0,134.1
+2022-09-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,194.59,None,Sunny,0,104.59
+2022-09-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,205.26,None,Rain,0,115.26
+2022-09-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,218.87,10% Off,Sunny,0,128.87
+2022-09-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,212.91,None,Sunny,0,122.91
+2022-09-25,SKU-301,AeroLite Helmet,Helmets,80.0,136.07,None,Snow,0,56.07
+2022-09-25,SKU-101,Pro Carbon Stick,Sticks,150.0,324.63,10% Off,Rain,0,174.63
+2022-09-25,SKU-301,AeroLite Helmet,Helmets,80.0,140.03,None,Snow,0,60.03
+2022-09-25,SKU-301,AeroLite Helmet,Helmets,80.0,172.68,None,Snow,0,92.68
+2022-09-28,SKU-201,Vapor Flex Skates,Skates,300.0,712.07,None,Sunny,0,412.07
+2022-09-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,222.61,None,Sunny,0,132.61
+2022-09-29,SKU-401,Stealth Pro Gloves,Gloves,90.0,212.31,None,Rain,0,122.31
+2022-09-29,SKU-101,Pro Carbon Stick,Sticks,150.0,285.66,None,Rain,0,135.66
+2022-09-30,SKU-201,Vapor Flex Skates,Skates,300.0,704.1,None,Sunny,0,404.1
+2022-10-01,SKU-101,Pro Carbon Stick,Sticks,150.0,352.82,None,Rain,0,202.82
+2022-10-01,SKU-301,AeroLite Helmet,Helmets,80.0,183.72,None,Snow,0,103.72
+2022-10-03,SKU-101,Pro Carbon Stick,Sticks,150.0,229.12,None,Snow,0,79.12
+2022-10-03,SKU-101,Pro Carbon Stick,Sticks,150.0,315.77,None,Rain,0,165.77
+2022-10-03,SKU-301,AeroLite Helmet,Helmets,80.0,191.45,None,Snow,0,111.45
+2022-10-07,SKU-101,Pro Carbon Stick,Sticks,150.0,260.02,None,Snow,0,110.02
+2022-10-08,SKU-201,Vapor Flex Skates,Skates,300.0,463.13,None,Rain,0,163.13
+2022-10-08,SKU-301,AeroLite Helmet,Helmets,80.0,154.45,None,Sunny,0,74.45
+2022-10-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,207.96,None,Sunny,0,117.96
+2022-10-10,SKU-101,Pro Carbon Stick,Sticks,150.0,312.93,10% Off,Sunny,0,162.93
+2022-10-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,146.04,None,Rain,0,56.04
+2022-10-12,SKU-301,AeroLite Helmet,Helmets,80.0,191.64,10% Off,Rain,0,111.64
+2022-10-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,197.05,None,Rain,0,107.05
+2022-10-16,SKU-101,Pro Carbon Stick,Sticks,150.0,356.5,None,Snow,0,206.5
+2022-10-18,SKU-101,Pro Carbon Stick,Sticks,150.0,281.05,None,Snow,0,131.05
+2022-10-20,SKU-201,Vapor Flex Skates,Skates,300.0,736.31,None,Snow,0,436.31
+2022-10-20,SKU-101,Pro Carbon Stick,Sticks,150.0,283.09,None,Snow,0,133.09
+2022-10-22,SKU-201,Vapor Flex Skates,Skates,300.0,649.45,None,Rain,0,349.45
+2022-10-22,SKU-301,AeroLite Helmet,Helmets,80.0,141.08,None,Rain,1,61.08
+2022-10-23,SKU-201,Vapor Flex Skates,Skates,300.0,727.68,10% Off,Sunny,0,427.68
+2022-10-23,SKU-101,Pro Carbon Stick,Sticks,150.0,329.04,10% Off,Rain,0,179.04
+2022-10-23,SKU-301,AeroLite Helmet,Helmets,80.0,198.84,None,Sunny,0,118.84
+2022-10-24,SKU-201,Vapor Flex Skates,Skates,300.0,576.62,None,Snow,0,276.62
+2022-10-24,SKU-201,Vapor Flex Skates,Skates,300.0,685.27,None,Rain,0,385.27
+2022-10-25,SKU-201,Vapor Flex Skates,Skates,300.0,459.81,None,Snow,0,159.81
+2022-10-25,SKU-201,Vapor Flex Skates,Skates,300.0,731.82,None,Snow,0,431.82
+2022-10-26,SKU-201,Vapor Flex Skates,Skates,300.0,628.85,10% Off,Sunny,0,328.85
+2022-10-26,SKU-301,AeroLite Helmet,Helmets,80.0,137.4,None,Sunny,1,57.4
+2022-10-28,SKU-101,Pro Carbon Stick,Sticks,150.0,226.57,10% Off,Snow,0,76.57
+2022-10-29,SKU-301,AeroLite Helmet,Helmets,80.0,182.18,10% Off,Snow,0,102.18
+2022-10-29,SKU-201,Vapor Flex Skates,Skates,300.0,556.55,None,Snow,0,256.55
+2022-10-30,SKU-101,Pro Carbon Stick,Sticks,150.0,342.66,None,Rain,0,192.66
+2022-10-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,185.26,None,Sunny,0,95.26
+2022-10-31,SKU-301,AeroLite Helmet,Helmets,80.0,159.66,None,Sunny,0,79.66
+2022-11-03,SKU-301,AeroLite Helmet,Helmets,80.0,145.06,10% Off,Snow,0,65.06
+2022-11-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,187.66,None,Sunny,0,97.66
+2022-11-05,SKU-101,Pro Carbon Stick,Sticks,150.0,292.67,None,Sunny,0,142.67
+2022-11-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,138.43,10% Off,Sunny,0,48.43
+2022-11-05,SKU-201,Vapor Flex Skates,Skates,300.0,734.03,None,Snow,0,434.03
+2022-11-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,205.6,None,Snow,0,115.6
+2022-11-08,SKU-201,Vapor Flex Skates,Skates,300.0,601.41,10% Off,Rain,0,301.41
+2022-11-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,208.14,None,Snow,0,118.14
+2022-11-10,SKU-101,Pro Carbon Stick,Sticks,150.0,230.25,None,Snow,0,80.25
+2022-11-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,152.26,None,Rain,0,62.26
+2022-11-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,219.91,None,Snow,0,129.91
+2022-11-17,SKU-101,Pro Carbon Stick,Sticks,150.0,290.57,None,Snow,0,140.57
+2022-11-18,SKU-201,Vapor Flex Skates,Skates,300.0,503.73,None,Rain,0,203.73
+2022-11-18,SKU-101,Pro Carbon Stick,Sticks,150.0,327.11,10% Off,Sunny,0,177.11
+2022-11-19,SKU-401,Stealth Pro Gloves,Gloves,90.0,173.72,10% Off,Snow,0,83.72
+2022-11-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,192.32,None,Snow,1,102.32
+2022-11-22,SKU-301,AeroLite Helmet,Helmets,80.0,189.23,10% Off,Snow,0,109.23
+2022-11-22,SKU-201,Vapor Flex Skates,Skates,300.0,739.68,None,Snow,0,439.68
+2022-11-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,137.07,None,Rain,0,47.07
+2022-11-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,175.2,None,Sunny,0,85.2
+2022-11-25,SKU-201,Vapor Flex Skates,Skates,300.0,711.26,None,Rain,0,411.26
+2022-11-25,SKU-301,AeroLite Helmet,Helmets,80.0,188.33,None,Sunny,0,108.33
+2022-11-26,SKU-201,Vapor Flex Skates,Skates,300.0,639.21,None,Snow,0,339.21
+2022-11-26,SKU-101,Pro Carbon Stick,Sticks,150.0,301.81,None,Rain,0,151.81
+2022-11-27,SKU-201,Vapor Flex Skates,Skates,300.0,697.56,10% Off,Rain,0,397.56
+2022-11-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,213.07,None,Sunny,0,123.07
+2022-11-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,182.05,10% Off,Sunny,0,92.05
+2022-11-29,SKU-201,Vapor Flex Skates,Skates,300.0,604.0,None,Sunny,0,304.0
+2022-11-30,SKU-201,Vapor Flex Skates,Skates,300.0,743.59,None,Snow,0,443.59
+2022-11-30,SKU-301,AeroLite Helmet,Helmets,80.0,199.43,None,Snow,0,119.43
+2022-11-30,SKU-101,Pro Carbon Stick,Sticks,150.0,273.69,None,Rain,0,123.69
+2022-12-01,SKU-101,Pro Carbon Stick,Sticks,150.0,286.0,None,Rain,0,136.0
+2022-12-02,SKU-301,AeroLite Helmet,Helmets,80.0,163.42,None,Rain,0,83.42
+2022-12-03,SKU-101,Pro Carbon Stick,Sticks,150.0,266.04,10% Off,Rain,0,116.04
+2022-12-05,SKU-101,Pro Carbon Stick,Sticks,150.0,306.77,None,Sunny,0,156.77
+2022-12-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,179.93,10% Off,Rain,0,89.93
+2022-12-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,163.95,10% Off,Rain,0,73.95
+2022-12-06,SKU-201,Vapor Flex Skates,Skates,300.0,649.84,None,Rain,0,349.84
+2022-12-06,SKU-201,Vapor Flex Skates,Skates,300.0,502.3,None,Sunny,0,202.3
+2022-12-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,167.63,None,Sunny,0,77.63
+2022-12-08,SKU-101,Pro Carbon Stick,Sticks,150.0,261.86,None,Sunny,0,111.86
+2022-12-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,199.42,None,Rain,0,109.42
+2022-12-09,SKU-201,Vapor Flex Skates,Skates,300.0,746.34,10% Off,Rain,0,446.34
+2022-12-09,SKU-301,AeroLite Helmet,Helmets,80.0,122.54,None,Rain,0,42.54
+2022-12-11,SKU-101,Pro Carbon Stick,Sticks,150.0,371.1,10% Off,Sunny,0,221.1
+2022-12-11,SKU-101,Pro Carbon Stick,Sticks,150.0,318.2,10% Off,Snow,0,168.2
+2022-12-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,152.26,None,Snow,0,62.26
+2022-12-13,SKU-201,Vapor Flex Skates,Skates,300.0,720.97,None,Rain,0,420.97
+2022-12-15,SKU-101,Pro Carbon Stick,Sticks,150.0,238.17,None,Rain,0,88.17
+2022-12-16,SKU-301,AeroLite Helmet,Helmets,80.0,198.46,None,Rain,0,118.46
+2022-12-16,SKU-301,AeroLite Helmet,Helmets,80.0,156.45,None,Snow,0,76.45
+2022-12-17,SKU-301,AeroLite Helmet,Helmets,80.0,155.94,10% Off,Sunny,0,75.94
+2022-12-17,SKU-401,Stealth Pro Gloves,Gloves,90.0,171.52,None,Rain,0,81.52
+2022-12-17,SKU-301,AeroLite Helmet,Helmets,80.0,195.02,None,Snow,0,115.02
+2022-12-18,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.18,10% Off,Sunny,0,75.18
+2022-12-18,SKU-101,Pro Carbon Stick,Sticks,150.0,244.78,10% Off,Rain,0,94.78
+2022-12-18,SKU-101,Pro Carbon Stick,Sticks,150.0,289.42,None,Rain,1,139.42
+2022-12-19,SKU-301,AeroLite Helmet,Helmets,80.0,198.48,None,Snow,0,118.48
+2022-12-20,SKU-201,Vapor Flex Skates,Skates,300.0,633.22,None,Sunny,0,333.22
+2022-12-21,SKU-201,Vapor Flex Skates,Skates,300.0,555.39,None,Rain,0,255.39
+2022-12-22,SKU-101,Pro Carbon Stick,Sticks,150.0,238.31,None,Snow,0,88.31
+2022-12-23,SKU-101,Pro Carbon Stick,Sticks,150.0,234.65,None,Rain,0,84.65
+2022-12-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,215.69,None,Sunny,0,125.69
+2022-12-24,SKU-201,Vapor Flex Skates,Skates,300.0,465.88,None,Sunny,1,165.88
+2022-12-27,SKU-301,AeroLite Helmet,Helmets,80.0,193.85,None,Sunny,0,113.85
+2022-12-27,SKU-201,Vapor Flex Skates,Skates,300.0,461.06,None,Rain,1,161.06
+2022-12-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,160.2,None,Rain,0,70.2
+2022-12-28,SKU-201,Vapor Flex Skates,Skates,300.0,626.22,None,Snow,0,326.22
+2022-12-29,SKU-401,Stealth Pro Gloves,Gloves,90.0,176.59,None,Rain,0,86.59
+2022-12-30,SKU-201,Vapor Flex Skates,Skates,300.0,496.49,10% Off,Rain,0,196.49
+2023-01-01,SKU-101,Pro Carbon Stick,Sticks,150.0,324.17,None,Sunny,0,174.17
+2023-01-01,SKU-301,AeroLite Helmet,Helmets,80.0,127.71,None,Snow,0,47.71
+2023-01-02,SKU-301,AeroLite Helmet,Helmets,80.0,136.62,None,Sunny,0,56.62
+2023-01-02,SKU-301,AeroLite Helmet,Helmets,80.0,147.76,None,Snow,0,67.76
+2023-01-03,SKU-101,Pro Carbon Stick,Sticks,150.0,307.61,None,Sunny,0,157.61
+2023-01-05,SKU-201,Vapor Flex Skates,Skates,300.0,670.97,None,Snow,0,370.97
+2023-01-05,SKU-301,AeroLite Helmet,Helmets,80.0,130.49,None,Sunny,0,50.49
+2023-01-06,SKU-301,AeroLite Helmet,Helmets,80.0,145.08,None,Sunny,0,65.08
+2023-01-06,SKU-301,AeroLite Helmet,Helmets,80.0,139.22,10% Off,Snow,0,59.22
+2023-01-06,SKU-301,AeroLite Helmet,Helmets,80.0,124.55,None,Snow,0,44.55
+2023-01-07,SKU-301,AeroLite Helmet,Helmets,80.0,122.47,None,Snow,1,42.47
+2023-01-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,194.22,None,Snow,0,104.22
+2023-01-09,SKU-201,Vapor Flex Skates,Skates,300.0,643.73,None,Sunny,0,343.73
+2023-01-09,SKU-101,Pro Carbon Stick,Sticks,150.0,232.18,10% Off,Rain,0,82.18
+2023-01-09,SKU-101,Pro Carbon Stick,Sticks,150.0,268.71,None,Snow,0,118.71
+2023-01-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,190.35,None,Snow,0,100.35
+2023-01-10,SKU-301,AeroLite Helmet,Helmets,80.0,157.09,None,Snow,0,77.09
+2023-01-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,177.91,None,Sunny,0,87.91
+2023-01-11,SKU-201,Vapor Flex Skates,Skates,300.0,587.94,10% Off,Sunny,0,287.94
+2023-01-11,SKU-201,Vapor Flex Skates,Skates,300.0,671.59,None,Snow,0,371.59
+2023-01-15,SKU-201,Vapor Flex Skates,Skates,300.0,691.22,None,Rain,0,391.22
+2023-01-15,SKU-101,Pro Carbon Stick,Sticks,150.0,356.72,None,Sunny,0,206.72
+2023-01-16,SKU-301,AeroLite Helmet,Helmets,80.0,188.05,None,Rain,1,108.05
+2023-01-16,SKU-201,Vapor Flex Skates,Skates,300.0,548.49,None,Snow,0,248.49
+2023-01-17,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.19,None,Sunny,1,75.19
+2023-01-17,SKU-101,Pro Carbon Stick,Sticks,150.0,229.16,None,Sunny,0,79.16
+2023-01-18,SKU-301,AeroLite Helmet,Helmets,80.0,121.71,None,Snow,0,41.71
+2023-01-20,SKU-101,Pro Carbon Stick,Sticks,150.0,249.15,None,Snow,0,99.15
+2023-01-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,183.8,None,Snow,0,93.8
+2023-01-21,SKU-101,Pro Carbon Stick,Sticks,150.0,297.57,None,Sunny,0,147.57
+2023-01-21,SKU-301,AeroLite Helmet,Helmets,80.0,190.02,None,Sunny,0,110.02
+2023-01-23,SKU-301,AeroLite Helmet,Helmets,80.0,133.27,None,Sunny,0,53.27
+2023-01-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,144.8,None,Sunny,0,54.8
+2023-01-24,SKU-101,Pro Carbon Stick,Sticks,150.0,268.75,None,Rain,0,118.75
+2023-01-26,SKU-101,Pro Carbon Stick,Sticks,150.0,284.88,None,Rain,0,134.88
+2023-01-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.08,None,Sunny,0,134.08
+2023-01-28,SKU-301,AeroLite Helmet,Helmets,80.0,189.13,None,Sunny,0,109.13
+2023-01-28,SKU-101,Pro Carbon Stick,Sticks,150.0,244.5,10% Off,Rain,0,94.5
+2023-01-29,SKU-301,AeroLite Helmet,Helmets,80.0,162.47,None,Rain,0,82.47
+2023-01-29,SKU-401,Stealth Pro Gloves,Gloves,90.0,160.32,None,Snow,0,70.32
+2023-01-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,171.09,None,Snow,0,81.09
+2023-02-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,161.67,None,Rain,0,71.67
+2023-02-01,SKU-101,Pro Carbon Stick,Sticks,150.0,365.04,None,Snow,0,215.04
+2023-02-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,186.5,None,Rain,0,96.5
+2023-02-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,162.76,None,Sunny,0,72.76
+2023-02-03,SKU-301,AeroLite Helmet,Helmets,80.0,121.84,None,Rain,0,41.84
+2023-02-04,SKU-101,Pro Carbon Stick,Sticks,150.0,263.58,None,Snow,0,113.58
+2023-02-05,SKU-101,Pro Carbon Stick,Sticks,150.0,259.86,None,Snow,0,109.86
+2023-02-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,151.1,None,Rain,0,61.1
+2023-02-07,SKU-101,Pro Carbon Stick,Sticks,150.0,307.96,None,Rain,0,157.96
+2023-02-07,SKU-101,Pro Carbon Stick,Sticks,150.0,323.64,None,Sunny,0,173.64
+2023-02-07,SKU-301,AeroLite Helmet,Helmets,80.0,183.87,None,Rain,1,103.87
+2023-02-07,SKU-201,Vapor Flex Skates,Skates,300.0,655.07,10% Off,Snow,0,355.07
+2023-02-07,SKU-101,Pro Carbon Stick,Sticks,150.0,244.2,None,Rain,0,94.2
+2023-02-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,188.05,None,Sunny,0,98.05
+2023-02-09,SKU-101,Pro Carbon Stick,Sticks,150.0,247.6,None,Rain,0,97.6
+2023-02-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,166.71,10% Off,Snow,0,76.71
+2023-02-10,SKU-201,Vapor Flex Skates,Skates,300.0,630.08,10% Off,Rain,0,330.08
+2023-02-10,SKU-301,AeroLite Helmet,Helmets,80.0,150.89,None,Snow,0,70.89
+2023-02-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,169.98,None,Snow,0,79.98
+2023-02-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,194.28,None,Snow,0,104.28
+2023-02-12,SKU-401,Stealth Pro Gloves,Gloves,90.0,212.28,10% Off,Snow,0,122.28
+2023-02-12,SKU-101,Pro Carbon Stick,Sticks,150.0,296.83,None,Snow,0,146.83
+2023-02-13,SKU-201,Vapor Flex Skates,Skates,300.0,487.19,None,Snow,0,187.19
+2023-02-13,SKU-101,Pro Carbon Stick,Sticks,150.0,253.02,None,Snow,0,103.02
+2023-02-14,SKU-301,AeroLite Helmet,Helmets,80.0,181.29,None,Snow,1,101.29
+2023-02-15,SKU-201,Vapor Flex Skates,Skates,300.0,706.43,None,Sunny,0,406.43
+2023-02-16,SKU-301,AeroLite Helmet,Helmets,80.0,135.01,None,Sunny,0,55.01
+2023-02-17,SKU-301,AeroLite Helmet,Helmets,80.0,161.04,None,Snow,0,81.04
+2023-02-18,SKU-301,AeroLite Helmet,Helmets,80.0,173.04,None,Rain,0,93.04
+2023-02-19,SKU-101,Pro Carbon Stick,Sticks,150.0,260.48,None,Sunny,0,110.48
+2023-02-19,SKU-101,Pro Carbon Stick,Sticks,150.0,262.13,10% Off,Sunny,0,112.13
+2023-02-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,203.9,10% Off,Snow,1,113.9
+2023-02-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,184.07,None,Rain,0,94.07
+2023-02-20,SKU-201,Vapor Flex Skates,Skates,300.0,634.17,None,Rain,0,334.17
+2023-02-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,161.77,None,Sunny,0,71.77
+2023-02-21,SKU-301,AeroLite Helmet,Helmets,80.0,166.39,None,Snow,0,86.39
+2023-02-22,SKU-101,Pro Carbon Stick,Sticks,150.0,234.77,None,Snow,0,84.77
+2023-02-22,SKU-201,Vapor Flex Skates,Skates,300.0,717.49,None,Sunny,0,417.49
+2023-02-22,SKU-301,AeroLite Helmet,Helmets,80.0,132.59,None,Snow,0,52.59
+2023-02-22,SKU-201,Vapor Flex Skates,Skates,300.0,493.96,None,Rain,0,193.96
+2023-02-22,SKU-401,Stealth Pro Gloves,Gloves,90.0,148.4,None,Rain,0,58.4
+2023-02-23,SKU-101,Pro Carbon Stick,Sticks,150.0,333.93,None,Snow,0,183.93
+2023-02-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,148.51,None,Sunny,0,58.51
+2023-02-23,SKU-301,AeroLite Helmet,Helmets,80.0,126.27,10% Off,Sunny,0,46.27
+2023-02-25,SKU-101,Pro Carbon Stick,Sticks,150.0,300.55,None,Rain,0,150.55
+2023-02-26,SKU-101,Pro Carbon Stick,Sticks,150.0,265.22,None,Snow,0,115.22
+2023-02-26,SKU-101,Pro Carbon Stick,Sticks,150.0,339.02,None,Snow,0,189.02
+2023-02-26,SKU-301,AeroLite Helmet,Helmets,80.0,183.99,None,Snow,0,103.99
+2023-02-27,SKU-101,Pro Carbon Stick,Sticks,150.0,305.4,None,Rain,0,155.4
+2023-03-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,170.88,None,Sunny,0,80.88
+2023-03-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,191.2,None,Rain,0,101.2
+2023-03-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,172.25,None,Rain,0,82.25
+2023-03-02,SKU-201,Vapor Flex Skates,Skates,300.0,644.47,None,Rain,0,344.47
+2023-03-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,206.59,None,Rain,1,116.59
+2023-03-04,SKU-101,Pro Carbon Stick,Sticks,150.0,310.35,None,Sunny,0,160.35
+2023-03-04,SKU-101,Pro Carbon Stick,Sticks,150.0,306.55,None,Snow,0,156.55
+2023-03-04,SKU-101,Pro Carbon Stick,Sticks,150.0,287.53,10% Off,Snow,0,137.53
+2023-03-04,SKU-101,Pro Carbon Stick,Sticks,150.0,365.31,None,Snow,0,215.31
+2023-03-05,SKU-101,Pro Carbon Stick,Sticks,150.0,344.96,None,Snow,0,194.96
+2023-03-05,SKU-101,Pro Carbon Stick,Sticks,150.0,327.37,None,Sunny,0,177.37
+2023-03-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,222.94,None,Rain,0,132.94
+2023-03-05,SKU-301,AeroLite Helmet,Helmets,80.0,166.57,None,Snow,0,86.57
+2023-03-05,SKU-201,Vapor Flex Skates,Skates,300.0,523.23,None,Rain,0,223.23
+2023-03-06,SKU-201,Vapor Flex Skates,Skates,300.0,497.3,None,Sunny,0,197.3
+2023-03-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,218.72,None,Sunny,0,128.72
+2023-03-07,SKU-201,Vapor Flex Skates,Skates,300.0,471.11,10% Off,Rain,0,171.11
+2023-03-08,SKU-101,Pro Carbon Stick,Sticks,150.0,255.94,None,Snow,0,105.94
+2023-03-10,SKU-301,AeroLite Helmet,Helmets,80.0,158.38,None,Rain,0,78.38
+2023-03-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,179.6,None,Snow,0,89.6
+2023-03-11,SKU-301,AeroLite Helmet,Helmets,80.0,152.01,None,Sunny,0,72.01
+2023-03-12,SKU-201,Vapor Flex Skates,Skates,300.0,638.47,10% Off,Rain,0,338.47
+2023-03-12,SKU-101,Pro Carbon Stick,Sticks,150.0,337.07,None,Rain,0,187.07
+2023-03-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,168.58,10% Off,Rain,0,78.58
+2023-03-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,217.81,None,Rain,0,127.81
+2023-03-13,SKU-301,AeroLite Helmet,Helmets,80.0,187.73,None,Rain,1,107.73
+2023-03-13,SKU-201,Vapor Flex Skates,Skates,300.0,707.42,10% Off,Snow,0,407.42
+2023-03-14,SKU-201,Vapor Flex Skates,Skates,300.0,746.22,None,Rain,0,446.22
+2023-03-15,SKU-201,Vapor Flex Skates,Skates,300.0,561.21,None,Sunny,0,261.21
+2023-03-15,SKU-301,AeroLite Helmet,Helmets,80.0,146.67,None,Snow,1,66.67
+2023-03-17,SKU-201,Vapor Flex Skates,Skates,300.0,455.72,None,Sunny,0,155.72
+2023-03-17,SKU-101,Pro Carbon Stick,Sticks,150.0,302.65,10% Off,Snow,0,152.65
+2023-03-18,SKU-301,AeroLite Helmet,Helmets,80.0,173.73,10% Off,Snow,0,93.73
+2023-03-19,SKU-401,Stealth Pro Gloves,Gloves,90.0,180.35,None,Sunny,0,90.35
+2023-03-19,SKU-201,Vapor Flex Skates,Skates,300.0,701.14,10% Off,Sunny,0,401.14
+2023-03-20,SKU-201,Vapor Flex Skates,Skates,300.0,551.1,None,Snow,0,251.1
+2023-03-20,SKU-201,Vapor Flex Skates,Skates,300.0,612.8,None,Snow,0,312.8
+2023-03-21,SKU-301,AeroLite Helmet,Helmets,80.0,125.32,10% Off,Rain,0,45.32
+2023-03-21,SKU-301,AeroLite Helmet,Helmets,80.0,182.87,10% Off,Snow,0,102.87
+2023-03-23,SKU-101,Pro Carbon Stick,Sticks,150.0,324.74,None,Snow,0,174.74
+2023-03-24,SKU-101,Pro Carbon Stick,Sticks,150.0,246.3,None,Snow,0,96.3
+2023-03-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,190.46,None,Snow,0,100.46
+2023-03-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,206.56,None,Sunny,0,116.56
+2023-03-27,SKU-201,Vapor Flex Skates,Skates,300.0,547.49,None,Snow,0,247.49
+2023-03-27,SKU-201,Vapor Flex Skates,Skates,300.0,644.99,None,Snow,0,344.99
+2023-03-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,203.81,None,Snow,0,113.81
+2023-03-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,145.94,10% Off,Sunny,0,55.94
+2023-03-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,220.03,None,Snow,0,130.03
+2023-03-28,SKU-101,Pro Carbon Stick,Sticks,150.0,232.15,None,Rain,0,82.15
+2023-03-29,SKU-101,Pro Carbon Stick,Sticks,150.0,336.71,None,Rain,0,186.71
+2023-03-29,SKU-401,Stealth Pro Gloves,Gloves,90.0,202.05,None,Rain,0,112.05
+2023-03-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,206.52,None,Sunny,0,116.52
+2023-03-30,SKU-301,AeroLite Helmet,Helmets,80.0,188.01,None,Rain,0,108.01
+2023-04-02,SKU-201,Vapor Flex Skates,Skates,300.0,455.41,None,Snow,0,155.41
+2023-04-02,SKU-101,Pro Carbon Stick,Sticks,150.0,295.77,10% Off,Snow,1,145.77
+2023-04-03,SKU-301,AeroLite Helmet,Helmets,80.0,196.25,None,Snow,0,116.25
+2023-04-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,170.42,None,Rain,0,80.42
+2023-04-04,SKU-201,Vapor Flex Skates,Skates,300.0,484.04,None,Sunny,0,184.04
+2023-04-05,SKU-301,AeroLite Helmet,Helmets,80.0,186.13,10% Off,Rain,0,106.13
+2023-04-05,SKU-101,Pro Carbon Stick,Sticks,150.0,228.64,None,Snow,0,78.64
+2023-04-06,SKU-101,Pro Carbon Stick,Sticks,150.0,273.88,None,Snow,0,123.88
+2023-04-07,SKU-101,Pro Carbon Stick,Sticks,150.0,264.97,None,Rain,0,114.97
+2023-04-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,198.1,None,Rain,0,108.1
+2023-04-10,SKU-201,Vapor Flex Skates,Skates,300.0,532.71,None,Snow,0,232.71
+2023-04-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,221.45,None,Sunny,0,131.45
+2023-04-11,SKU-401,Stealth Pro Gloves,Gloves,90.0,179.07,None,Sunny,0,89.07
+2023-04-14,SKU-101,Pro Carbon Stick,Sticks,150.0,356.09,None,Rain,0,206.09
+2023-04-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,186.34,None,Snow,0,96.34
+2023-04-16,SKU-101,Pro Carbon Stick,Sticks,150.0,325.08,10% Off,Snow,0,175.08
+2023-04-17,SKU-301,AeroLite Helmet,Helmets,80.0,171.68,None,Snow,0,91.68
+2023-04-17,SKU-301,AeroLite Helmet,Helmets,80.0,120.12,None,Snow,0,40.12
+2023-04-17,SKU-101,Pro Carbon Stick,Sticks,150.0,229.09,None,Rain,0,79.09
+2023-04-18,SKU-401,Stealth Pro Gloves,Gloves,90.0,161.54,None,Sunny,0,71.54
+2023-04-19,SKU-301,AeroLite Helmet,Helmets,80.0,165.47,None,Snow,0,85.47
+2023-04-19,SKU-201,Vapor Flex Skates,Skates,300.0,542.7,None,Rain,0,242.7
+2023-04-21,SKU-101,Pro Carbon Stick,Sticks,150.0,340.75,None,Rain,0,190.75
+2023-04-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,185.68,None,Sunny,0,95.68
+2023-04-22,SKU-201,Vapor Flex Skates,Skates,300.0,735.44,10% Off,Snow,0,435.44
+2023-04-22,SKU-301,AeroLite Helmet,Helmets,80.0,150.53,10% Off,Snow,0,70.53
+2023-04-23,SKU-201,Vapor Flex Skates,Skates,300.0,652.59,None,Rain,1,352.59
+2023-04-24,SKU-301,AeroLite Helmet,Helmets,80.0,142.81,None,Rain,0,62.81
+2023-04-24,SKU-301,AeroLite Helmet,Helmets,80.0,197.88,None,Rain,0,117.88
+2023-04-25,SKU-201,Vapor Flex Skates,Skates,300.0,604.01,None,Sunny,0,304.01
+2023-04-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,186.38,10% Off,Snow,0,96.38
+2023-04-26,SKU-101,Pro Carbon Stick,Sticks,150.0,336.77,None,Snow,1,186.77
+2023-04-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,156.1,None,Sunny,0,66.1
+2023-04-27,SKU-201,Vapor Flex Skates,Skates,300.0,581.97,None,Rain,0,281.97
+2023-04-29,SKU-301,AeroLite Helmet,Helmets,80.0,128.3,None,Rain,0,48.3
+2023-05-01,SKU-101,Pro Carbon Stick,Sticks,150.0,232.37,None,Snow,0,82.37
+2023-05-01,SKU-201,Vapor Flex Skates,Skates,300.0,545.75,None,Snow,0,245.75
+2023-05-01,SKU-101,Pro Carbon Stick,Sticks,150.0,291.52,10% Off,Sunny,0,141.52
+2023-05-01,SKU-201,Vapor Flex Skates,Skates,300.0,571.95,None,Rain,0,271.95
+2023-05-02,SKU-201,Vapor Flex Skates,Skates,300.0,572.53,None,Sunny,0,272.53
+2023-05-04,SKU-201,Vapor Flex Skates,Skates,300.0,466.35,None,Snow,0,166.35
+2023-05-04,SKU-101,Pro Carbon Stick,Sticks,150.0,292.86,10% Off,Sunny,0,142.86
+2023-05-05,SKU-101,Pro Carbon Stick,Sticks,150.0,334.08,None,Rain,0,184.08
+2023-05-05,SKU-301,AeroLite Helmet,Helmets,80.0,190.72,None,Snow,0,110.72
+2023-05-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,144.25,None,Sunny,0,54.25
+2023-05-07,SKU-201,Vapor Flex Skates,Skates,300.0,722.93,None,Rain,0,422.93
+2023-05-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,157.97,None,Rain,0,67.97
+2023-05-08,SKU-201,Vapor Flex Skates,Skates,300.0,555.61,None,Rain,0,255.61
+2023-05-08,SKU-301,AeroLite Helmet,Helmets,80.0,192.18,10% Off,Rain,0,112.18
+2023-05-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,137.51,None,Snow,0,47.51
+2023-05-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,153.84,None,Sunny,0,63.84
+2023-05-10,SKU-101,Pro Carbon Stick,Sticks,150.0,321.5,None,Rain,0,171.5
+2023-05-10,SKU-301,AeroLite Helmet,Helmets,80.0,124.7,None,Snow,0,44.7
+2023-05-11,SKU-201,Vapor Flex Skates,Skates,300.0,678.52,None,Sunny,0,378.52
+2023-05-12,SKU-101,Pro Carbon Stick,Sticks,150.0,269.13,None,Rain,0,119.13
+2023-05-12,SKU-101,Pro Carbon Stick,Sticks,150.0,241.2,10% Off,Sunny,0,91.2
+2023-05-13,SKU-101,Pro Carbon Stick,Sticks,150.0,267.61,None,Snow,0,117.61
+2023-05-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,135.88,None,Snow,0,45.88
+2023-05-15,SKU-201,Vapor Flex Skates,Skates,300.0,660.05,None,Rain,1,360.05
+2023-05-18,SKU-201,Vapor Flex Skates,Skates,300.0,475.0,None,Rain,0,175.0
+2023-05-18,SKU-401,Stealth Pro Gloves,Gloves,90.0,148.24,None,Rain,0,58.24
+2023-05-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,158.88,None,Rain,0,68.88
+2023-05-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,204.39,None,Sunny,0,114.39
+2023-05-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,184.59,None,Snow,0,94.59
+2023-05-23,SKU-201,Vapor Flex Skates,Skates,300.0,692.67,None,Rain,0,392.67
+2023-05-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,171.72,None,Snow,0,81.72
+2023-05-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,155.2,10% Off,Snow,0,65.2
+2023-05-26,SKU-301,AeroLite Helmet,Helmets,80.0,166.5,10% Off,Rain,0,86.5
+2023-05-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,185.81,None,Sunny,0,95.81
+2023-05-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,149.91,None,Snow,0,59.91
+2023-05-27,SKU-301,AeroLite Helmet,Helmets,80.0,141.97,None,Rain,0,61.97
+2023-05-28,SKU-201,Vapor Flex Skates,Skates,300.0,535.19,10% Off,Rain,0,235.19
+2023-05-28,SKU-301,AeroLite Helmet,Helmets,80.0,123.19,None,Snow,0,43.19
+2023-05-29,SKU-301,AeroLite Helmet,Helmets,80.0,188.84,None,Snow,0,108.84
+2023-05-29,SKU-301,AeroLite Helmet,Helmets,80.0,148.84,None,Rain,0,68.84
+2023-05-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,220.55,None,Rain,0,130.55
+2023-05-31,SKU-401,Stealth Pro Gloves,Gloves,90.0,149.23,None,Snow,0,59.23
+2023-05-31,SKU-201,Vapor Flex Skates,Skates,300.0,473.54,None,Sunny,0,173.54
+2023-05-31,SKU-101,Pro Carbon Stick,Sticks,150.0,286.18,None,Sunny,0,136.18
+2023-06-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,198.67,None,Sunny,0,108.67
+2023-06-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,201.53,None,Rain,0,111.53
+2023-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,249.77,None,Sunny,0,99.77
+2023-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,322.91,10% Off,Snow,0,172.91
+2023-06-02,SKU-101,Pro Carbon Stick,Sticks,150.0,285.49,None,Snow,0,135.49
+2023-06-04,SKU-301,AeroLite Helmet,Helmets,80.0,129.9,None,Rain,1,49.9
+2023-06-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.56,None,Rain,0,75.56
+2023-06-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,222.59,None,Sunny,0,132.59
+2023-06-05,SKU-201,Vapor Flex Skates,Skates,300.0,643.71,None,Sunny,0,343.71
+2023-06-06,SKU-301,AeroLite Helmet,Helmets,80.0,150.59,None,Sunny,0,70.59
+2023-06-06,SKU-201,Vapor Flex Skates,Skates,300.0,501.6,None,Rain,0,201.6
+2023-06-06,SKU-101,Pro Carbon Stick,Sticks,150.0,324.93,None,Rain,1,174.93
+2023-06-07,SKU-201,Vapor Flex Skates,Skates,300.0,644.15,None,Sunny,0,344.15
+2023-06-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,206.55,10% Off,Rain,0,116.55
+2023-06-10,SKU-201,Vapor Flex Skates,Skates,300.0,624.12,None,Sunny,0,324.12
+2023-06-11,SKU-301,AeroLite Helmet,Helmets,80.0,142.47,10% Off,Sunny,0,62.47
+2023-06-11,SKU-101,Pro Carbon Stick,Sticks,150.0,241.75,None,Sunny,0,91.75
+2023-06-12,SKU-101,Pro Carbon Stick,Sticks,150.0,234.65,None,Sunny,0,84.65
+2023-06-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,202.02,None,Snow,0,112.02
+2023-06-13,SKU-101,Pro Carbon Stick,Sticks,150.0,240.68,None,Sunny,0,90.68
+2023-06-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,137.03,None,Sunny,0,47.03
+2023-06-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,204.9,None,Rain,0,114.9
+2023-06-15,SKU-101,Pro Carbon Stick,Sticks,150.0,234.58,None,Snow,0,84.58
+2023-06-16,SKU-201,Vapor Flex Skates,Skates,300.0,627.47,None,Snow,0,327.47
+2023-06-16,SKU-201,Vapor Flex Skates,Skates,300.0,652.2,10% Off,Sunny,0,352.2
+2023-06-17,SKU-301,AeroLite Helmet,Helmets,80.0,180.33,10% Off,Rain,0,100.33
+2023-06-17,SKU-401,Stealth Pro Gloves,Gloves,90.0,138.77,None,Snow,0,48.77
+2023-06-20,SKU-201,Vapor Flex Skates,Skates,300.0,717.83,None,Sunny,0,417.83
+2023-06-21,SKU-201,Vapor Flex Skates,Skates,300.0,517.52,None,Snow,0,217.52
+2023-06-21,SKU-301,AeroLite Helmet,Helmets,80.0,180.38,None,Sunny,0,100.38
+2023-06-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,209.95,None,Rain,0,119.95
+2023-06-24,SKU-101,Pro Carbon Stick,Sticks,150.0,232.56,10% Off,Sunny,0,82.56
+2023-06-24,SKU-101,Pro Carbon Stick,Sticks,150.0,280.48,10% Off,Snow,0,130.48
+2023-06-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,173.18,None,Snow,0,83.18
+2023-06-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.2,None,Snow,1,134.2
+2023-06-26,SKU-301,AeroLite Helmet,Helmets,80.0,142.86,10% Off,Sunny,0,62.86
+2023-06-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,158.1,None,Rain,0,68.1
+2023-06-26,SKU-101,Pro Carbon Stick,Sticks,150.0,349.86,None,Sunny,0,199.86
+2023-06-28,SKU-201,Vapor Flex Skates,Skates,300.0,745.32,None,Sunny,0,445.32
+2023-06-28,SKU-301,AeroLite Helmet,Helmets,80.0,185.84,None,Rain,0,105.84
+2023-06-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,208.24,None,Sunny,0,118.24
+2023-06-30,SKU-101,Pro Carbon Stick,Sticks,150.0,320.02,None,Sunny,0,170.02
+2023-06-30,SKU-101,Pro Carbon Stick,Sticks,150.0,303.6,None,Snow,0,153.6
+2023-06-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,221.77,None,Rain,0,131.77
+2023-07-01,SKU-101,Pro Carbon Stick,Sticks,150.0,321.12,None,Rain,0,171.12
+2023-07-01,SKU-301,AeroLite Helmet,Helmets,80.0,198.04,10% Off,Sunny,0,118.04
+2023-07-01,SKU-201,Vapor Flex Skates,Skates,300.0,611.78,None,Sunny,0,311.78
+2023-07-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,179.21,10% Off,Snow,0,89.21
+2023-07-04,SKU-301,AeroLite Helmet,Helmets,80.0,150.84,None,Rain,0,70.84
+2023-07-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.57,None,Snow,0,134.57
+2023-07-06,SKU-101,Pro Carbon Stick,Sticks,150.0,366.79,10% Off,Rain,0,216.79
+2023-07-06,SKU-301,AeroLite Helmet,Helmets,80.0,141.16,10% Off,Rain,0,61.16
+2023-07-06,SKU-301,AeroLite Helmet,Helmets,80.0,154.92,None,Rain,0,74.92
+2023-07-07,SKU-201,Vapor Flex Skates,Skates,300.0,460.09,None,Rain,0,160.09
+2023-07-08,SKU-101,Pro Carbon Stick,Sticks,150.0,374.92,None,Snow,0,224.92
+2023-07-09,SKU-301,AeroLite Helmet,Helmets,80.0,120.04,None,Sunny,0,40.04
+2023-07-13,SKU-101,Pro Carbon Stick,Sticks,150.0,323.08,None,Snow,0,173.08
+2023-07-13,SKU-101,Pro Carbon Stick,Sticks,150.0,237.63,None,Rain,0,87.63
+2023-07-14,SKU-101,Pro Carbon Stick,Sticks,150.0,311.12,None,Snow,0,161.12
+2023-07-15,SKU-401,Stealth Pro Gloves,Gloves,90.0,189.24,None,Snow,0,99.24
+2023-07-16,SKU-301,AeroLite Helmet,Helmets,80.0,175.51,None,Snow,0,95.51
+2023-07-17,SKU-101,Pro Carbon Stick,Sticks,150.0,241.11,None,Sunny,0,91.11
+2023-07-17,SKU-101,Pro Carbon Stick,Sticks,150.0,246.61,None,Rain,0,96.61
+2023-07-18,SKU-101,Pro Carbon Stick,Sticks,150.0,302.95,None,Sunny,0,152.95
+2023-07-18,SKU-101,Pro Carbon Stick,Sticks,150.0,282.53,None,Sunny,0,132.53
+2023-07-18,SKU-101,Pro Carbon Stick,Sticks,150.0,306.01,10% Off,Sunny,0,156.01
+2023-07-19,SKU-101,Pro Carbon Stick,Sticks,150.0,249.02,10% Off,Rain,0,99.02
+2023-07-21,SKU-201,Vapor Flex Skates,Skates,300.0,652.89,None,Rain,0,352.89
+2023-07-21,SKU-401,Stealth Pro Gloves,Gloves,90.0,164.27,None,Sunny,0,74.27
+2023-07-22,SKU-301,AeroLite Helmet,Helmets,80.0,128.23,10% Off,Snow,0,48.23
+2023-07-22,SKU-201,Vapor Flex Skates,Skates,300.0,531.25,None,Sunny,0,231.25
+2023-07-23,SKU-301,AeroLite Helmet,Helmets,80.0,164.66,None,Snow,0,84.66
+2023-07-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,164.63,None,Sunny,0,74.63
+2023-07-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,172.77,None,Sunny,0,82.77
+2023-07-24,SKU-201,Vapor Flex Skates,Skates,300.0,699.16,10% Off,Snow,1,399.16
+2023-07-24,SKU-201,Vapor Flex Skates,Skates,300.0,606.19,None,Rain,0,306.19
+2023-07-25,SKU-301,AeroLite Helmet,Helmets,80.0,137.64,None,Sunny,0,57.64
+2023-07-25,SKU-101,Pro Carbon Stick,Sticks,150.0,268.98,None,Snow,0,118.98
+2023-07-28,SKU-201,Vapor Flex Skates,Skates,300.0,695.12,None,Sunny,0,395.12
+2023-07-29,SKU-101,Pro Carbon Stick,Sticks,150.0,255.76,None,Rain,0,105.76
+2023-07-29,SKU-201,Vapor Flex Skates,Skates,300.0,744.87,None,Sunny,0,444.87
+2023-07-29,SKU-301,AeroLite Helmet,Helmets,80.0,178.56,None,Rain,0,98.56
+2023-07-30,SKU-201,Vapor Flex Skates,Skates,300.0,695.22,None,Rain,0,395.22
+2023-07-30,SKU-301,AeroLite Helmet,Helmets,80.0,154.13,10% Off,Snow,0,74.13
+2023-07-31,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.14,None,Rain,0,75.14
+2023-07-31,SKU-201,Vapor Flex Skates,Skates,300.0,596.53,None,Rain,0,296.53
+2023-07-31,SKU-101,Pro Carbon Stick,Sticks,150.0,329.98,None,Rain,0,179.98
+2023-07-31,SKU-301,AeroLite Helmet,Helmets,80.0,122.01,None,Snow,0,42.01
+2023-08-01,SKU-301,AeroLite Helmet,Helmets,80.0,192.13,10% Off,Rain,0,112.13
+2023-08-01,SKU-301,AeroLite Helmet,Helmets,80.0,143.36,None,Sunny,0,63.36
+2023-08-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,200.24,None,Snow,0,110.24
+2023-08-02,SKU-201,Vapor Flex Skates,Skates,300.0,664.41,None,Rain,0,364.41
+2023-08-03,SKU-201,Vapor Flex Skates,Skates,300.0,641.02,None,Sunny,0,341.02
+2023-08-04,SKU-101,Pro Carbon Stick,Sticks,150.0,324.88,None,Sunny,0,174.88
+2023-08-04,SKU-401,Stealth Pro Gloves,Gloves,90.0,146.26,None,Sunny,0,56.26
+2023-08-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,151.3,10% Off,Sunny,0,61.3
+2023-08-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,169.73,None,Sunny,0,79.73
+2023-08-07,SKU-101,Pro Carbon Stick,Sticks,150.0,351.89,None,Sunny,0,201.89
+2023-08-09,SKU-101,Pro Carbon Stick,Sticks,150.0,288.72,None,Snow,0,138.72
+2023-08-09,SKU-301,AeroLite Helmet,Helmets,80.0,180.63,None,Snow,0,100.63
+2023-08-11,SKU-301,AeroLite Helmet,Helmets,80.0,194.32,None,Sunny,0,114.32
+2023-08-12,SKU-301,AeroLite Helmet,Helmets,80.0,191.82,None,Snow,0,111.82
+2023-08-12,SKU-301,AeroLite Helmet,Helmets,80.0,162.57,10% Off,Sunny,0,82.57
+2023-08-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,220.33,None,Rain,0,130.33
+2023-08-14,SKU-201,Vapor Flex Skates,Skates,300.0,470.24,None,Rain,1,170.24
+2023-08-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,147.13,None,Rain,0,57.13
+2023-08-20,SKU-301,AeroLite Helmet,Helmets,80.0,152.43,None,Sunny,0,72.43
+2023-08-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,158.49,10% Off,Rain,0,68.49
+2023-08-20,SKU-301,AeroLite Helmet,Helmets,80.0,194.07,None,Sunny,0,114.07
+2023-08-21,SKU-101,Pro Carbon Stick,Sticks,150.0,305.95,None,Rain,0,155.95
+2023-08-21,SKU-101,Pro Carbon Stick,Sticks,150.0,312.4,None,Rain,0,162.4
+2023-08-21,SKU-201,Vapor Flex Skates,Skates,300.0,489.63,None,Rain,0,189.63
+2023-08-21,SKU-201,Vapor Flex Skates,Skates,300.0,556.37,10% Off,Snow,0,256.37
+2023-08-22,SKU-201,Vapor Flex Skates,Skates,300.0,586.33,None,Rain,0,286.33
+2023-08-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,198.2,None,Sunny,0,108.2
+2023-08-23,SKU-301,AeroLite Helmet,Helmets,80.0,195.1,None,Rain,0,115.1
+2023-08-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,146.95,None,Snow,0,56.95
+2023-08-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.08,None,Snow,0,134.08
+2023-08-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,214.83,None,Snow,0,124.83
+2023-08-26,SKU-101,Pro Carbon Stick,Sticks,150.0,336.59,None,Snow,0,186.59
+2023-08-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,168.24,None,Snow,0,78.24
+2023-08-27,SKU-301,AeroLite Helmet,Helmets,80.0,189.95,None,Sunny,0,109.95
+2023-08-28,SKU-301,AeroLite Helmet,Helmets,80.0,171.73,None,Sunny,0,91.73
+2023-08-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,160.57,None,Sunny,0,70.57
+2023-08-30,SKU-201,Vapor Flex Skates,Skates,300.0,749.8,10% Off,Rain,0,449.8
+2023-08-31,SKU-401,Stealth Pro Gloves,Gloves,90.0,156.67,10% Off,Snow,0,66.67
+2023-08-31,SKU-301,AeroLite Helmet,Helmets,80.0,131.47,None,Snow,0,51.47
+2023-09-01,SKU-101,Pro Carbon Stick,Sticks,150.0,243.89,None,Snow,0,93.89
+2023-09-01,SKU-201,Vapor Flex Skates,Skates,300.0,658.76,None,Sunny,0,358.76
+2023-09-02,SKU-201,Vapor Flex Skates,Skates,300.0,465.05,None,Rain,0,165.05
+2023-09-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,217.76,10% Off,Rain,0,127.76
+2023-09-03,SKU-201,Vapor Flex Skates,Skates,300.0,496.1,10% Off,Snow,0,196.1
+2023-09-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,156.87,None,Sunny,0,66.87
+2023-09-04,SKU-101,Pro Carbon Stick,Sticks,150.0,286.05,10% Off,Rain,0,136.05
+2023-09-05,SKU-201,Vapor Flex Skates,Skates,300.0,627.23,None,Sunny,1,327.23
+2023-09-07,SKU-101,Pro Carbon Stick,Sticks,150.0,365.83,None,Sunny,0,215.83
+2023-09-07,SKU-101,Pro Carbon Stick,Sticks,150.0,335.76,None,Snow,0,185.76
+2023-09-08,SKU-301,AeroLite Helmet,Helmets,80.0,174.85,None,Sunny,0,94.85
+2023-09-09,SKU-301,AeroLite Helmet,Helmets,80.0,186.01,None,Sunny,0,106.01
+2023-09-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.76,None,Sunny,0,134.76
+2023-09-09,SKU-401,Stealth Pro Gloves,Gloves,90.0,181.99,None,Rain,0,91.99
+2023-09-09,SKU-301,AeroLite Helmet,Helmets,80.0,164.03,None,Snow,0,84.03
+2023-09-10,SKU-201,Vapor Flex Skates,Skates,300.0,714.56,None,Sunny,0,414.56
+2023-09-10,SKU-201,Vapor Flex Skates,Skates,300.0,655.74,None,Snow,0,355.74
+2023-09-11,SKU-301,AeroLite Helmet,Helmets,80.0,149.24,10% Off,Snow,1,69.24
+2023-09-12,SKU-301,AeroLite Helmet,Helmets,80.0,133.21,None,Rain,0,53.21
+2023-09-12,SKU-101,Pro Carbon Stick,Sticks,150.0,294.34,10% Off,Snow,0,144.34
+2023-09-12,SKU-201,Vapor Flex Skates,Skates,300.0,564.3,None,Sunny,0,264.3
+2023-09-15,SKU-301,AeroLite Helmet,Helmets,80.0,127.9,None,Sunny,0,47.9
+2023-09-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,152.64,None,Sunny,0,62.64
+2023-09-17,SKU-101,Pro Carbon Stick,Sticks,150.0,280.0,None,Rain,0,130.0
+2023-09-17,SKU-201,Vapor Flex Skates,Skates,300.0,748.65,None,Rain,0,448.65
+2023-09-18,SKU-301,AeroLite Helmet,Helmets,80.0,127.31,10% Off,Snow,0,47.31
+2023-09-19,SKU-301,AeroLite Helmet,Helmets,80.0,184.89,None,Rain,0,104.89
+2023-09-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.31,None,Rain,0,134.31
+2023-09-22,SKU-101,Pro Carbon Stick,Sticks,150.0,270.63,None,Rain,0,120.63
+2023-09-23,SKU-201,Vapor Flex Skates,Skates,300.0,579.11,None,Sunny,0,279.11
+2023-09-23,SKU-101,Pro Carbon Stick,Sticks,150.0,272.56,10% Off,Snow,0,122.56
+2023-09-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,195.3,None,Snow,0,105.3
+2023-09-24,SKU-401,Stealth Pro Gloves,Gloves,90.0,173.91,None,Snow,0,83.91
+2023-09-25,SKU-101,Pro Carbon Stick,Sticks,150.0,259.98,None,Rain,0,109.98
+2023-09-27,SKU-301,AeroLite Helmet,Helmets,80.0,156.78,10% Off,Rain,0,76.78
+2023-09-29,SKU-201,Vapor Flex Skates,Skates,300.0,511.24,None,Sunny,0,211.24
+2023-09-30,SKU-101,Pro Carbon Stick,Sticks,150.0,233.38,None,Sunny,0,83.38
+2023-10-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,185.27,None,Snow,0,95.27
+2023-10-02,SKU-401,Stealth Pro Gloves,Gloves,90.0,174.4,10% Off,Snow,0,84.4
+2023-10-06,SKU-301,AeroLite Helmet,Helmets,80.0,191.18,None,Sunny,1,111.18
+2023-10-06,SKU-101,Pro Carbon Stick,Sticks,150.0,360.82,None,Sunny,0,210.82
+2023-10-06,SKU-301,AeroLite Helmet,Helmets,80.0,149.63,None,Sunny,0,69.63
+2023-10-07,SKU-401,Stealth Pro Gloves,Gloves,90.0,159.48,None,Rain,0,69.48
+2023-10-09,SKU-101,Pro Carbon Stick,Sticks,150.0,312.89,None,Snow,0,162.89
+2023-10-09,SKU-201,Vapor Flex Skates,Skates,300.0,610.82,None,Snow,0,310.82
+2023-10-09,SKU-101,Pro Carbon Stick,Sticks,150.0,284.53,None,Sunny,1,134.53
+2023-10-10,SKU-301,AeroLite Helmet,Helmets,80.0,194.11,None,Snow,0,114.11
+2023-10-11,SKU-201,Vapor Flex Skates,Skates,300.0,737.46,10% Off,Sunny,0,437.46
+2023-10-11,SKU-201,Vapor Flex Skates,Skates,300.0,670.08,None,Snow,0,370.08
+2023-10-13,SKU-201,Vapor Flex Skates,Skates,300.0,661.33,None,Snow,0,361.33
+2023-10-13,SKU-401,Stealth Pro Gloves,Gloves,90.0,196.84,None,Rain,1,106.84
+2023-10-14,SKU-101,Pro Carbon Stick,Sticks,150.0,276.24,None,Sunny,0,126.24
+2023-10-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,153.16,None,Sunny,0,63.16
+2023-10-14,SKU-101,Pro Carbon Stick,Sticks,150.0,317.82,10% Off,Snow,0,167.82
+2023-10-14,SKU-101,Pro Carbon Stick,Sticks,150.0,269.46,None,Sunny,0,119.46
+2023-10-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.83,None,Rain,0,126.83
+2023-10-15,SKU-201,Vapor Flex Skates,Skates,300.0,536.91,None,Snow,0,236.91
+2023-10-16,SKU-301,AeroLite Helmet,Helmets,80.0,184.83,None,Snow,0,104.83
+2023-10-16,SKU-301,AeroLite Helmet,Helmets,80.0,168.79,None,Snow,0,88.79
+2023-10-17,SKU-201,Vapor Flex Skates,Skates,300.0,532.49,None,Rain,0,232.49
+2023-10-18,SKU-101,Pro Carbon Stick,Sticks,150.0,290.56,None,Snow,0,140.56
+2023-10-18,SKU-101,Pro Carbon Stick,Sticks,150.0,306.16,10% Off,Sunny,0,156.16
+2023-10-19,SKU-401,Stealth Pro Gloves,Gloves,90.0,151.28,10% Off,Rain,0,61.28
+2023-10-22,SKU-201,Vapor Flex Skates,Skates,300.0,532.3,None,Sunny,0,232.3
+2023-10-23,SKU-101,Pro Carbon Stick,Sticks,150.0,237.75,None,Sunny,0,87.75
+2023-10-24,SKU-201,Vapor Flex Skates,Skates,300.0,692.6,None,Sunny,0,392.6
+2023-10-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,171.26,10% Off,Sunny,0,81.26
+2023-10-27,SKU-201,Vapor Flex Skates,Skates,300.0,741.4,None,Snow,0,441.4
+2023-10-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,194.62,None,Snow,0,104.62
+2023-10-27,SKU-201,Vapor Flex Skates,Skates,300.0,464.66,None,Snow,0,164.66
+2023-10-28,SKU-401,Stealth Pro Gloves,Gloves,90.0,191.57,None,Snow,0,101.57
+2023-10-28,SKU-101,Pro Carbon Stick,Sticks,150.0,283.42,None,Sunny,0,133.42
+2023-10-29,SKU-201,Vapor Flex Skates,Skates,300.0,549.77,10% Off,Rain,0,249.77
+2023-10-30,SKU-401,Stealth Pro Gloves,Gloves,90.0,139.33,None,Snow,0,49.33
+2023-10-31,SKU-101,Pro Carbon Stick,Sticks,150.0,288.38,10% Off,Sunny,0,138.38
+2023-10-31,SKU-101,Pro Carbon Stick,Sticks,150.0,373.33,None,Snow,0,223.33
+2023-11-01,SKU-301,AeroLite Helmet,Helmets,80.0,161.15,None,Snow,0,81.15
+2023-11-01,SKU-201,Vapor Flex Skates,Skates,300.0,702.69,10% Off,Rain,0,402.69
+2023-11-01,SKU-401,Stealth Pro Gloves,Gloves,90.0,197.73,None,Sunny,0,107.73
+2023-11-01,SKU-201,Vapor Flex Skates,Skates,300.0,480.28,None,Rain,0,180.28
+2023-11-01,SKU-201,Vapor Flex Skates,Skates,300.0,748.04,None,Snow,0,448.04
+2023-11-03,SKU-101,Pro Carbon Stick,Sticks,150.0,278.77,None,Snow,0,128.77
+2023-11-04,SKU-301,AeroLite Helmet,Helmets,80.0,121.01,None,Rain,0,41.01
+2023-11-05,SKU-401,Stealth Pro Gloves,Gloves,90.0,191.54,10% Off,Snow,0,101.54
+2023-11-07,SKU-101,Pro Carbon Stick,Sticks,150.0,294.45,10% Off,Rain,0,144.45
+2023-11-07,SKU-201,Vapor Flex Skates,Skates,300.0,533.7,None,Rain,0,233.7
+2023-11-08,SKU-101,Pro Carbon Stick,Sticks,150.0,364.1,None,Sunny,0,214.1
+2023-11-10,SKU-401,Stealth Pro Gloves,Gloves,90.0,190.24,None,Rain,0,100.24
+2023-11-10,SKU-201,Vapor Flex Skates,Skates,300.0,673.85,None,Sunny,0,373.85
+2023-11-11,SKU-301,AeroLite Helmet,Helmets,80.0,196.51,10% Off,Rain,0,116.51
+2023-11-11,SKU-301,AeroLite Helmet,Helmets,80.0,174.42,None,Rain,0,94.42
+2023-11-13,SKU-301,AeroLite Helmet,Helmets,80.0,198.59,10% Off,Sunny,0,118.59
+2023-11-13,SKU-101,Pro Carbon Stick,Sticks,150.0,329.94,None,Rain,0,179.94
+2023-11-14,SKU-401,Stealth Pro Gloves,Gloves,90.0,203.32,None,Rain,0,113.32
+2023-11-15,SKU-101,Pro Carbon Stick,Sticks,150.0,301.57,None,Rain,0,151.57
+2023-11-16,SKU-401,Stealth Pro Gloves,Gloves,90.0,184.96,None,Snow,0,94.96
+2023-11-16,SKU-101,Pro Carbon Stick,Sticks,150.0,287.58,None,Sunny,0,137.58
+2023-11-17,SKU-201,Vapor Flex Skates,Skates,300.0,731.69,None,Rain,0,431.69
+2023-11-20,SKU-201,Vapor Flex Skates,Skates,300.0,636.24,None,Snow,0,336.24
+2023-11-20,SKU-401,Stealth Pro Gloves,Gloves,90.0,205.64,None,Sunny,0,115.64
+2023-11-22,SKU-101,Pro Carbon Stick,Sticks,150.0,245.42,None,Rain,0,95.42
+2023-11-22,SKU-201,Vapor Flex Skates,Skates,300.0,558.05,10% Off,Snow,0,258.05
+2023-11-22,SKU-101,Pro Carbon Stick,Sticks,150.0,344.36,None,Sunny,0,194.36
+2023-11-23,SKU-401,Stealth Pro Gloves,Gloves,90.0,180.46,None,Sunny,0,90.46
+2023-11-24,SKU-301,AeroLite Helmet,Helmets,80.0,147.97,None,Sunny,0,67.97
+2023-11-25,SKU-301,AeroLite Helmet,Helmets,80.0,194.81,None,Rain,0,114.81
+2023-11-25,SKU-101,Pro Carbon Stick,Sticks,150.0,276.51,None,Snow,0,126.51
+2023-11-26,SKU-201,Vapor Flex Skates,Skates,300.0,723.69,None,Rain,0,423.69
+2023-11-26,SKU-101,Pro Carbon Stick,Sticks,150.0,325.99,None,Snow,0,175.99
+2023-11-28,SKU-201,Vapor Flex Skates,Skates,300.0,515.61,10% Off,Rain,0,215.61
+2023-11-30,SKU-301,AeroLite Helmet,Helmets,80.0,191.04,None,Snow,1,111.04
+2023-11-30,SKU-301,AeroLite Helmet,Helmets,80.0,181.14,None,Rain,0,101.14
+2023-12-02,SKU-101,Pro Carbon Stick,Sticks,150.0,229.7,None,Rain,0,79.7
+2023-12-03,SKU-401,Stealth Pro Gloves,Gloves,90.0,143.13,None,Snow,0,53.13
+2023-12-03,SKU-201,Vapor Flex Skates,Skates,300.0,613.89,None,Rain,0,313.89
+2023-12-03,SKU-201,Vapor Flex Skates,Skates,300.0,554.14,10% Off,Rain,0,254.14
+2023-12-03,SKU-201,Vapor Flex Skates,Skates,300.0,605.63,None,Snow,0,305.63
+2023-12-03,SKU-301,AeroLite Helmet,Helmets,80.0,132.91,None,Snow,0,52.91
+2023-12-04,SKU-101,Pro Carbon Stick,Sticks,150.0,286.64,None,Rain,0,136.64
+2023-12-05,SKU-101,Pro Carbon Stick,Sticks,150.0,330.78,None,Sunny,0,180.78
+2023-12-06,SKU-401,Stealth Pro Gloves,Gloves,90.0,221.95,None,Sunny,0,131.95
+2023-12-06,SKU-301,AeroLite Helmet,Helmets,80.0,183.82,None,Snow,0,103.82
+2023-12-08,SKU-401,Stealth Pro Gloves,Gloves,90.0,165.2,None,Snow,0,75.2
+2023-12-09,SKU-101,Pro Carbon Stick,Sticks,150.0,237.78,None,Snow,0,87.78
+2023-12-09,SKU-201,Vapor Flex Skates,Skates,300.0,495.28,None,Rain,0,195.28
+2023-12-10,SKU-101,Pro Carbon Stick,Sticks,150.0,336.6,None,Snow,0,186.6
+2023-12-11,SKU-301,AeroLite Helmet,Helmets,80.0,192.01,None,Sunny,0,112.01
+2023-12-12,SKU-301,AeroLite Helmet,Helmets,80.0,153.9,None,Sunny,0,73.9
+2023-12-13,SKU-301,AeroLite Helmet,Helmets,80.0,191.99,None,Rain,0,111.99
+2023-12-15,SKU-301,AeroLite Helmet,Helmets,80.0,161.43,None,Rain,0,81.43
+2023-12-16,SKU-201,Vapor Flex Skates,Skates,300.0,652.52,10% Off,Sunny,0,352.52
+2023-12-16,SKU-201,Vapor Flex Skates,Skates,300.0,601.75,None,Rain,1,301.75
+2023-12-16,SKU-301,AeroLite Helmet,Helmets,80.0,176.18,None,Snow,0,96.18
+2023-12-16,SKU-101,Pro Carbon Stick,Sticks,150.0,334.89,None,Snow,0,184.89
+2023-12-17,SKU-201,Vapor Flex Skates,Skates,300.0,585.64,10% Off,Snow,0,285.64
+2023-12-17,SKU-301,AeroLite Helmet,Helmets,80.0,163.31,None,Sunny,0,83.31
+2023-12-18,SKU-201,Vapor Flex Skates,Skates,300.0,570.89,10% Off,Sunny,1,270.89
+2023-12-18,SKU-401,Stealth Pro Gloves,Gloves,90.0,214.74,None,Sunny,0,124.74
+2023-12-21,SKU-301,AeroLite Helmet,Helmets,80.0,153.39,None,Sunny,0,73.39
+2023-12-22,SKU-401,Stealth Pro Gloves,Gloves,90.0,147.26,None,Rain,0,57.26
+2023-12-22,SKU-101,Pro Carbon Stick,Sticks,150.0,300.21,None,Snow,0,150.21
+2023-12-22,SKU-301,AeroLite Helmet,Helmets,80.0,197.67,None,Rain,0,117.67
+2023-12-23,SKU-101,Pro Carbon Stick,Sticks,150.0,370.65,None,Rain,0,220.65
+2023-12-23,SKU-201,Vapor Flex Skates,Skates,300.0,686.6,10% Off,Sunny,0,386.6
+2023-12-23,SKU-101,Pro Carbon Stick,Sticks,150.0,247.28,None,Snow,0,97.28
+2023-12-23,SKU-301,AeroLite Helmet,Helmets,80.0,195.41,None,Rain,0,115.41
+2023-12-25,SKU-101,Pro Carbon Stick,Sticks,150.0,366.89,None,Rain,0,216.89
+2023-12-25,SKU-101,Pro Carbon Stick,Sticks,150.0,360.94,None,Rain,0,210.94
+2023-12-25,SKU-401,Stealth Pro Gloves,Gloves,90.0,202.72,10% Off,Sunny,0,112.72
+2023-12-26,SKU-401,Stealth Pro Gloves,Gloves,90.0,195.41,10% Off,Sunny,0,105.41
+2023-12-26,SKU-101,Pro Carbon Stick,Sticks,150.0,358.27,10% Off,Snow,0,208.27
+2023-12-26,SKU-301,AeroLite Helmet,Helmets,80.0,126.8,None,Sunny,0,46.8
+2023-12-26,SKU-101,Pro Carbon Stick,Sticks,150.0,252.64,None,Rain,0,102.64
+2023-12-27,SKU-401,Stealth Pro Gloves,Gloves,90.0,216.69,None,Rain,0,126.69
+2023-12-28,SKU-201,Vapor Flex Skates,Skates,300.0,570.66,None,Rain,0,270.66
+2023-12-29,SKU-101,Pro Carbon Stick,Sticks,150.0,343.45,None,Sunny,1,193.45
+2023-12-30,SKU-201,Vapor Flex Skates,Skates,300.0,481.67,None,Snow,0,181.67
+2023-12-31,SKU-301,AeroLite Helmet,Helmets,80.0,159.81,10% Off,Rain,0,79.81
+2023-12-31,SKU-301,AeroLite Helmet,Helmets,80.0,177.76,None,Rain,1,97.76
+2023-12-31,SKU-101,Pro Carbon Stick,Sticks,150.0,282.98,10% Off,Rain,0,132.98
+2023-12-31,SKU-401,Stealth Pro Gloves,Gloves,90.0,224.11,None,Rain,0,134.11

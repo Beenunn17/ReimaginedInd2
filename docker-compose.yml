@@ -1,0 +1,66 @@
+services:
+  api:
+    build:
+      context: ./agent-python-backend
+      dockerfile: Dockerfile.api
+    environment:
+      # --- App ---
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      DATA_DIR: /app/data
+      STORAGE_BACKEND: local
+
+      # --- Vertex / Google ---
+      GOOGLE_CLOUD_PROJECT: ${GOOGLE_CLOUD_PROJECT:-braidai}
+      GOOGLE_APPLICATION_CREDENTIALS: /root/.config/gcloud/application_default_credentials.json
+      VERTEX_LOCATION: ${VERTEX_LOCATION:-us-central1}
+
+      # --- Performance / guards ---
+      PLAYWRIGHT_ENABLED: "false"
+      SEO_BROWSER_URL: ""
+    depends_on:
+      - redis
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist app data (CSV, thumbnails, cache)
+      - ./agent-python-backend/data:/app/data
+      # Mount your local ADC *read-only* into the container
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/root/.config/gcloud/application_default_credentials.json:ro
+
+  mmm-worker:
+    build:
+      context: ./agent-python-backend
+      dockerfile: Dockerfile.mmm
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      DATA_DIR: /app/data
+      STORAGE_BACKEND: local
+      GOOGLE_CLOUD_PROJECT: ${GOOGLE_CLOUD_PROJECT:-braidai}
+      GOOGLE_APPLICATION_CREDENTIALS: /root/.config/gcloud/application_default_credentials.json
+      VERTEX_LOCATION: ${VERTEX_LOCATION:-us-central1}
+      RQ_QUEUES: mmm
+    depends_on:
+      - redis
+    volumes:
+      - ./agent-python-backend/data:/app/data
+      - ${HOME}/.config/gcloud/application_default_credentials.json:/root/.config/gcloud/application_default_credentials.json:ro
+
+  seo-browser:
+    build:
+      context: ./seo-browser
+      dockerfile: Dockerfile
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    depends_on:
+      - redis
+    # Expose only if you add an HTTP API for it
+    # ports:
+    #   - "8002:8002"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"

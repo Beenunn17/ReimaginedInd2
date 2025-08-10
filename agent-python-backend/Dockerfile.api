@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+# Install runtime dependencies
+WORKDIR /app
+
+# Install only the lightweight API dependencies
+COPY requirements.api.txt ./
+RUN pip install --no-cache-dir -r requirements.api.txt
+
+# Copy application code into the container
+COPY . .
+
+# Set PYTHONPATH so that workers and agents can be resolved
+ENV PYTHONPATH=/app
+
+# Expose the HTTP port used by the FastAPI app
+EXPOSE 8000
+
+# Launch the API using uvicorn with uvloop and httptools for performance
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--loop", "uvloop", "--http", "httptools"]

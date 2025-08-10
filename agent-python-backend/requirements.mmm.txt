@@ -1,0 +1,9 @@
+pandas
+numpy
+jax
+jaxlib
+numpyro
+redis==5.0.8
+rq==2.0.0
+lightweight_mmm==0.1.9
+arviz==0.15.1

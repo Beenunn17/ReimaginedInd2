@@ -1,0 +1,108 @@
+/* src/App.css - Final with animations */
+
+:root {
+  --background-dark: #000000;
+  --surface-dark: #1E1E1E;
+  --text-primary: #FFFFFF;
+  --user-bubble-bg: #005f6b;
+  --accent-cyan: #00E5FF;
+}
+
+html, body {
+  background-color: var(--background-dark);
+  color: var(--text-primary);
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 64px;
+}
+
+.app-bar {
+  background-color: var(--surface-dark) !important;
+  border-bottom: 1px solid #333;
+  box-shadow: none !important;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* === PULSING LOGO ANIMATION === */
+.header-logo.pulsing {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 5px 10px rgba(0, 229, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 229, 255, 0);
+  }
+}
+
+/* === NEW COLLAPSED VIEW STYLE === */
+.collapsed-view {
+  width: 50vw;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.chat-window-container {
+  width: 50vw;
+  height: 85vh;
+  max-width: 800px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-paper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-dark) !important;
+  color: var(--text-primary) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.message-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.message-form-container {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #333;
+  gap: 10px;
+}
+
+/* --- Rest of the styles are the same --- */
+.message-bubble { padding: 10px 15px; border-radius: 20px; margin-bottom: 10px; max-width: 85%; line-height: 1.5; word-wrap: break-word; }
+.message-bubble.user { background-color: var(--user-bubble-bg); color: var(--text-primary); margin-left: auto; }
+.message-bubble.agent { background-color: #3C3C3C; color: var(--text-primary); margin-right: auto; }
+.typing-indicator { animation: blink 1.5s infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.message-form-container .MuiOutlinedInput-root { background-color: #3C3C3C; }
+.message-form-container .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline { border-color: #555; }
+.message-form-container .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline { border-color: var(--accent-cyan); }
+.message-form-container .MuiInputBase-input { color: var(--text-primary); }
+.message-form-container .MuiIconButton-root { color: var(--accent-cyan); }
+.message-bubble.agent a { color: var(--accent-cyan); }
+.message-bubble.agent code { background-color: rgba(0, 0, 0, 0.2); padding: 2px 4px; border-radius: 4px; font-family: monospace; }
+.message-bubble.agent pre { background-color: #000; padding: 1rem; border-radius: 8px; overflow-x: auto; }

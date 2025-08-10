@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+google-cloud-aiplatform
+google-cloud-secret-manager
+openai
+httpx
+beautifulsoup4
+playwright
+matplotlib
+python-multipart
+scipy
