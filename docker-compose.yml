@@ -1,8 +1,16 @@
+version: "3.9"
+
 services:
   api:
     build:
       context: ./agent-python-backend
       dockerfile: Dockerfile.api
+    command: >
+      uvicorn main:app
+      --host 0.0.0.0
+      --port 8000
+      --loop asyncio
+      --http h11
     environment:
       # --- App ---
       REDIS_HOST: redis
@@ -25,6 +33,8 @@ services:
     volumes:
       # Persist app data (CSV, thumbnails, cache)
       - ./agent-python-backend/data:/app/data
+      # Persist the creative image library across runs
+      - ./agent-python-backend/image_library:/app/image_library
       # Mount your local ADC *read-only* into the container
       - ${HOME}/.config/gcloud/application_default_credentials.json:/root/.config/gcloud/application_default_credentials.json:ro
 
@@ -45,6 +55,7 @@ services:
       - redis
     volumes:
       - ./agent-python-backend/data:/app/data
+      - ./agent-python-backend/image_library:/app/image_library
       - ${HOME}/.config/gcloud/application_default_credentials.json:/root/.config/gcloud/application_default_credentials.json:ro
 
   seo-browser:

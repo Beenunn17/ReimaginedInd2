@@ -11,6 +11,8 @@ import httpx
 from typing import Optional
 
 from fastapi import FastAPI, Form, HTTPException, WebSocket, Request, UploadFile, File
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
@@ -84,6 +86,22 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Mount the data directory to serve model artifacts and other static data. This
+# allows clients to fetch plot images saved under DATA_DIR via URLs like
+# /data/models/<dataset>/<timestamp>/<plot>.png. Without this mount the
+# images would not be reachable from the frontend.
+if os.path.isdir(DATA_DIR):
+    app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
+
+# Mount the image library directory if it exists.  The creative asset
+# endpoints write files into IMAGE_LIBRARY_DIR via library.storage.save_bytes().
+# By exposing the directory under `/image_library` here, the frontend can
+# request thumbnails and originals directly.  When served locally the
+# resulting URLs look like `/image_library/orig/<uid>.jpg` or `/image_library/t/<uid>.jpg`.
+IMAGE_LIBRARY_DIR = os.getenv("IMAGE_LIBRARY_DIR", "./image_library")
+if os.path.isdir(IMAGE_LIBRARY_DIR):
+    app.mount("/image_library", StaticFiles(directory=IMAGE_LIBRARY_DIR), name="image_library")
 
 # --- Middleware ---
 @app.middleware("http")
@@ -180,9 +198,38 @@ async def get_data_preview(dataset_filename: str):
     return json.loads(df.head().to_json(orient='split'))
 
 @app.post("/analyze")
-async def analyze_data(dataset_filename: str = Form(...), prompt: str = Form(...)):
+async def analyze_data(
+    dataset_filename: str = Form(...),
+    prompt: str = Form(...),
+    model_type: str = Form("standard"),
+    revenue_target: Optional[float] = Form(None),
+):
+    """Analyze a dataset using either a standard or Bayesian MMM flow.
+
+    The ``model_type`` form field selects which analysis to run. When
+    ``model_type`` equals ``bayesian`` the advanced MMM training using
+    lightweight_mmm is invoked before generating a summary. Otherwise the
+    standard LLM‑only analysis is performed.
+    """
     filepath = os.path.join(DATA_DIR, dataset_filename)
+    if not os.path.exists(filepath):
+        raise HTTPException(status_code=404, detail=f"Dataset {dataset_filename} not found.")
     df = pd.read_csv(filepath)
+    # Branch based on model_type
+    if model_type.lower() == "bayesian":
+        # For Bayesian flow, call the MMM agent. Pass dataset_filename as dataset_name for artifact naming.
+        result = run_bayesian_mmm_agent(
+            dataframe=df,
+            user_prompt=prompt,
+            dataset_name=dataset_filename,
+            project_id=PROJECT_ID,
+            location=LOCATION,
+            model_name=MODEL_NAME,
+        )
+        if "error" in result:
+            raise HTTPException(status_code=500, detail=result["error"])
+        return result
+    # Default: standard analysis
     return run_standard_agent(df, prompt, PROJECT_ID, LOCATION, MODEL_NAME)
 
 @app.post("/follow-up")
@@ -296,6 +343,34 @@ async def job_status_endpoint(job_id: str):
         "error": str(job.exc_info) if job.is_failed else None,
     }
 
+@app.get("/mmm/plots")
+async def get_mmm_plots(model_id: str):
+    """Return the list of plot file URLs for a given MMM model.
+
+    The ``model_id`` must be in the form ``<dataset>/<timestamp>`` and
+    resolves to a directory under ``DATA_DIR/models``. The endpoint
+    inspects this directory for any PNG files and returns their names
+    and URLs. If the directory does not exist or contains no images an
+    HTTP 404 is returned.
+    """
+    # Validate and normalise model_id
+    if not model_id or "/" not in model_id:
+        raise HTTPException(status_code=400, detail="model_id must be in the form <dataset>/<timestamp>")
+    # Build the model directory path
+    model_dir = os.path.join(DATA_DIR, "models", *model_id.split("/"))
+    if not os.path.isdir(model_dir):
+        raise HTTPException(status_code=404, detail=f"Model {model_id} not found.")
+    # Scan for image files (png)
+    plot_files = [f for f in os.listdir(model_dir) if f.lower().endswith(".png")]
+    if not plot_files:
+        raise HTTPException(status_code=404, detail=f"No plots found for model {model_id}.")
+    # Build URLs relative to the mounted /data static route
+    results = []
+    for fname in sorted(plot_files):
+        rel_path = os.path.relpath(os.path.join(model_dir, fname), DATA_DIR)
+        results.append({"name": fname, "url": f"/data/{rel_path}".replace("\\", "/")})
+    return {"model_id": model_id, "plots": results}
+
 # --- Creative Library ---
 @app.post("/library/images/save")
 async def save_image_endpoint(
@@ -341,7 +416,83 @@ async def edit_image_endpoint(
     data_url: Optional[str] = Form(None),
     file: Optional[UploadFile] = File(None),
 ):
-    raise HTTPException(status_code=501, detail="Image editing not implemented.")
+    """Apply a simple image filter to an uploaded or data URL image.
+
+    Supported operations include:
+
+    - ``grayscale``: Convert the image to grayscale.
+    - ``invert``: Invert the colours of the image.
+    - ``brightness``: Apply a brightness enhancement (increase by 20%).
+
+    If an unsupported operation is requested a 400 error is returned. The
+    resulting image is saved back into the image library and the URL
+    returned. The original image is not overwritten.
+    """
+    if not save_bytes or not image_ops:
+        raise HTTPException(status_code=500, detail="Image library not configured.")
+    raw_data = await file.read() if file else (
+        base64.b64decode(data_url.split(",", 1)[1]) if data_url else None
+    )
+    if not raw_data:
+        raise HTTPException(status_code=400, detail="No image data provided.")
+    # Open the image using Pillow via image_ops helper
+    from PIL import Image, ImageEnhance, ImageOps  # type: ignore
+    img = Image.open(io.BytesIO(raw_data)).convert("RGB")
+    if operation == "grayscale":
+        img = ImageOps.grayscale(img).convert("RGB")
+    elif operation == "invert":
+        img = ImageOps.invert(img)
+    elif operation == "brightness":
+        enhancer = ImageEnhance.Brightness(img)
+        img = enhancer.enhance(1.2)
+    else:
+        raise HTTPException(status_code=400, detail=f"Unsupported edit operation '{operation}'.")
+    buffer = io.BytesIO()
+    img.save(buffer, format="JPEG", quality=85)
+    uid = str(uuid.uuid4())
+    return {"orig": save_bytes(f"orig/{uid}.jpg", buffer.getvalue())}
+
+@app.get("/library/assets")
+async def list_library_assets():
+    """List all assets stored in the image library in reverse chronological order.
+
+    The image library saves files into subdirectories named ``orig``, ``m``
+    (medium) and ``t`` (thumbnail). This endpoint enumerates the original
+    images and returns a list of asset objects each containing the
+    original, medium and thumbnail URLs. Assets are ordered by file
+    modification time so that the most recently saved images appear first.
+    """
+    if not os.path.isdir(IMAGE_LIBRARY_DIR):
+        raise HTTPException(status_code=404, detail="Image library not found.")
+    orig_dir = os.path.join(IMAGE_LIBRARY_DIR, "orig")
+    if not os.path.isdir(orig_dir):
+        return {"assets": []}
+    assets = []
+    # Iterate over files in the orig directory
+    for fname in os.listdir(orig_dir):
+        if not fname.lower().endswith(('.jpg', '.jpeg', '.png')):
+            continue
+        uid, _ = os.path.splitext(fname)
+        # Determine modification time for ordering
+        fpath = os.path.join(orig_dir, fname)
+        try:
+            mtime = os.path.getmtime(fpath)
+        except Exception:
+            mtime = 0
+        asset = {
+            "id": uid,
+            "orig": f"/image_library/orig/{fname}",
+            "medium": f"/image_library/m/{uid}.jpg",
+            "thumb": f"/image_library/t/{uid}.jpg",
+            "mtime": mtime,
+        }
+        assets.append(asset)
+    # Sort by modification time descending
+    assets.sort(key=lambda x: x["mtime"], reverse=True)
+    # Drop mtime from response
+    for asset in assets:
+        asset.pop("mtime", None)
+    return {"assets": assets}
 
 @app.post("/library/animate")
 async def animate_endpoint(request: Request):

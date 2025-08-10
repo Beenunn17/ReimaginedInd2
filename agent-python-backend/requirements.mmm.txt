@@ -1,9 +1,32 @@
-pandas
-numpy
-jax
-jaxlib
-numpyro
-redis==5.0.8
-rq==2.0.0
-lightweight_mmm==0.1.9
+# --- Core scientific stack (NumPy 1.x on purpose; MMM stack not ready for NumPy 2) ---
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.1.4
+
+# --- Plotting (must match lightweight_mmm 0.1.9 requirements) ---
+matplotlib==3.6.1
+pillow==10.3.0
+kiwisolver==1.4.5
+cycler==0.12.1
+contourpy==1.1.1
+pyparsing==3.1.2
+fonttools==4.51.0
+packaging==24.0
+
+# --- JAX/Numpyro/ArviZ (CPU-only) ---
+jax==0.4.23
+jaxlib==0.4.23          # CPU wheel; works on linux/amd64 and linux/arm64
+numpyro==0.13.2
 arviz==0.15.1
+# ArviZ pulls xarray; keep it on a NumPy-1.x-friendly line
+xarray==2023.1.0
+xarray-einstats==0.5.1
+typing-extensions==4.10.0
+tqdm==4.66.4
+multipledispatch==1.0.0
+
+# --- The star of the show ---
+lightweight_mmm==0.1.9
+
+rq==1.15.1
+redis==5.0.1

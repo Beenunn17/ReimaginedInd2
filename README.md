@@ -75,7 +75,7 @@ Prerequisites:
    The app will start at `http://localhost:5173` and proxy API requests to
    `http://localhost:8000` (configured in the Vite proxy settings).
 
-3. **Dataset directory**
+3. **Dataset and model directories**
 
    The API expects CSV datasets to be placed in `/app/data` inside the
    container. During local development the `create_dummy_data.py` script can
@@ -84,16 +84,48 @@ Prerequisites:
 
 4. **Environment variables**
 
-   The API uses the following environment variables (defaults shown):
+   The API is configured via a number of environment variables. When
+   running locally via Docker Compose sensible defaults are provided. To
+   run outside of Docker you must export these variables in your shell
+   before starting the app:
 
-   | Variable          | Purpose                                         |
-   |-------------------|-------------------------------------------------|
-   | `GOOGLE_CLOUD_PROJECT` | Default GCP project ID used by Vertex AI clients. |
-   | `REDIS_HOST`      | Hostname of the Redis instance (`redis` in Compose). |
-   | `REDIS_PORT`      | Port of the Redis instance (6379).              |
-   | `DATA_DIR`        | Directory where CSV datasets are stored (`/app/data`). |
-   | `STORAGE_BACKEND` | `local` (default) or `gcs`. Selects storage adapter. |
-   | `GCS_BUCKET`      | Name of the GCS bucket to use when `STORAGE_BACKEND=gcs`. |
+   | Variable                     | Purpose                                                                                                   |
+   |------------------------------|-----------------------------------------------------------------------------------------------------------|
+   | `GOOGLE_CLOUD_PROJECT`       | GCP project ID used for Vertex AI. Leave empty to disable Vertex calls during local development.         |
+   | `GOOGLE_APPLICATION_CREDENTIALS` | Path to your Google Application Default Credentials JSON file. Required when enabling Vertex or GCS. |
+   | `VERTEX_LOCATION`            | Region for Vertex AI (e.g. `us-central1`).                                                               |
+   | `REDIS_HOST`                 | Hostname of the Redis instance (`redis` in Compose or `localhost` when running locally).                 |
+   | `REDIS_PORT`                 | Port of the Redis instance (6379).                                                                       |
+   | `DATA_DIR`                   | Directory where CSV datasets and model artefacts are stored. Defaults to `./agent-python-backend/data`.  |
+   | `IMAGE_LIBRARY_DIR`          | Directory used by the creative endpoints to store uploaded and generated images. Defaults to `./agent-python-backend/image_library`. |
+   | `STORAGE_BACKEND`            | Selects the storage adapter (`local` or `gcs`). Local storage writes into `IMAGE_LIBRARY_DIR`.           |
+   | `GCS_BUCKET`                 | Name of the GCS bucket to use when `STORAGE_BACKEND=gcs`.                                                |
+
+   When running the API without Docker you can start it using uvicorn:
+
+   ```bash
+   # Create and activate a virtual environment
+   python3 -m venv .venv
+   source .venv/bin/activate
+   
+   # Install dependencies (API only)
+   pip install -r agent-python-backend/requirements.api.txt
+   
+   # (Optional) Install MMM worker deps if you plan to train models
+   pip install -r agent-python-backend/requirements.mmm.txt
+   
+   # Export environment variables for data and image storage
+   export DATA_DIR=$(pwd)/agent-python-backend/data
+   export IMAGE_LIBRARY_DIR=$(pwd)/agent-python-backend/image_library
+   export REDIS_HOST=localhost
+   export REDIS_PORT=6379
+   
+   # Start a local Redis if not already running
+   docker run --rm -p 6379:6379 redis:7-alpine &
+   
+   # Launch the API using uvicorn with uvloop and httptools
+   uvicorn main:app --host 0.0.0.0 --port 8000 --loop uvloop --http httptools
+   ```
 
 ## Deploying to Google Cloud Run
 
@@ -158,12 +190,16 @@ mounting service account keys.
 
 ## Notes and TODOs
 
-* The MMM training functions are currently stubs that compute simple
-  statistics. Integrate your preferred modeling library (e.g. JAX +
-  lightweight_mmm) in `agents/data_science_agent.py` and adjust
-  `requirements.mmm.txt` accordingly.
-* Image editing operations beyond text overlay are not yet implemented. Extend
-  `library/image_ops.py` and the `/library/images/edit` endpoint as needed.
+* The MMM training functions now use the [lightweight_mmm](https://github.com/google/lightweight_mmm)
+  library to fit a Bayesian media mix model. Model artefacts (pickled
+  model, diagnostics JSON and plots) are saved under
+  ``$DATA_DIR/models/<dataset>/<timestamp>/`` and can be listed via the
+  ``GET /mmm/plots`` endpoint. You can adjust priors and sampling
+  parameters in ``agents/data_science_agent.py``.
+* Basic image editing operations (grayscale, invert and brightness) are
+  implemented in the `/library/images/edit` endpoint. Additional filters
+  and adjustments can be added by extending `library/image_ops.py` and
+  updating the endpoint accordingly.
 * The SEO browser worker is a scaffold. Add RQ job handling and Playwright
   tasks to `seo-browser/workers/seo_worker.py` when ready.
 * Ensure that any calls to external services (e.g. Vertex AI, OpenAI) are
